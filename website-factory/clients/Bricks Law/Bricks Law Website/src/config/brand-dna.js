@@ -890,6 +890,50 @@ export const brandDNA = {
       "disclaimer": "\"No Win, No Fee\" describes how attorney's fees work, not a guarantee of any particular case outcome or settlement amount. Every case is different."
     }
   },
+  "practiceAreas": [
+    {
+      "name": "Personal Injury",
+      "description": "Car accidents, truck accidents, motorcycle crashes, pedestrian incidents, slip and fall, and wrongful death. Peter Bricks handles every case personally on a No Win, No Fee basis.",
+      "subTypes": [
+        "Car Accidents",
+        "Truck Accidents",
+        "Motorcycle Accidents",
+        "Pedestrian and Hit-and-Run",
+        "Slip and Fall",
+        "Wrongful Death"
+      ],
+      "badge": "No Win, No Fee"
+    },
+    {
+      "name": "Bankruptcy",
+      "description": "Chapter 7 and Chapter 13 bankruptcy can stop creditor calls immediately, halt wage garnishment, and give you a real financial fresh start. Peter Bricks handles every case from the first consultation to discharge.",
+      "subTypes": [
+        "Chapter 7 Bankruptcy",
+        "Chapter 13 Bankruptcy"
+      ],
+      "badge": null
+    },
+    {
+      "name": "Mediation",
+      "description": "Peter Bricks is a registered civil mediator through the Georgia Office of Dispute Resolution (GODR). He mediates personal injury, commercial, and civil disputes for parties seeking resolution without trial.",
+      "subTypes": [],
+      "badge": "Registered Civil Mediator, GODR"
+    }
+  ],
+  "attorneyProfile": {
+    "education": [
+      "J.D., Georgia State University College of Law",
+      "B.A., University of Texas"
+    ],
+    "admissions": [
+      "State Bar of Georgia, Active Member in Good Standing (since 2006)",
+      "Supreme Court of Georgia",
+      "Georgia Court of Appeals",
+      "U.S. District Court, Northern District of Georgia",
+      "U.S. District Court, Middle District of Georgia",
+      "Registered Civil Mediator, Georgia Office of Dispute Resolution (GODR)"
+    ]
+  },
   "credit": {
     "agency": "Intake Agency",
     "url": null

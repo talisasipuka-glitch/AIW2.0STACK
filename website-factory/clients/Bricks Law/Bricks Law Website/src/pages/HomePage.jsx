@@ -4,17 +4,13 @@ import { buildLegalServiceSchema, buildFaqPage } from '../lib/seo.js';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import Hero from '../components/Hero.jsx';
-import ProcessSteps from '../components/ProcessSteps.jsx';
 import StatsBar from '../components/StatsBar.jsx';
-import PressBand from '../components/PressBand.jsx';
-import WhyChooseUs from '../components/WhyChooseUs.jsx';
-import PracticeAreasGrid from '../components/PracticeAreasGrid.jsx';
-import FounderStory from '../components/FounderStory.jsx';
+import PracticeAreasThree from '../components/PracticeAreasThree.jsx';
+import AttorneyProfile from '../components/AttorneyProfile.jsx';
+import DirectLineBand from '../components/DirectLineBand.jsx';
 import Testimonials from '../components/Testimonials.jsx';
 import FAQSection from '../components/FAQSection.jsx';
-import CTABand from '../components/CTABand.jsx';
-import DirectLineBand from '../components/DirectLineBand.jsx';
-import VideosBand from '../components/VideosBand.jsx';
+import ContactSection from '../components/ContactSection.jsx';
 
 export default function HomePage() {
   return (
@@ -28,17 +24,13 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
-        <ProcessSteps />
         <StatsBar />
-        <PressBand />
-        <WhyChooseUs />
-        <PracticeAreasGrid />
-        <FounderStory />
+        <PracticeAreasThree />
+        <AttorneyProfile />
         <DirectLineBand />
-        <VideosBand />
         <Testimonials />
         <FAQSection />
-        <CTABand />
+        <ContactSection />
       </main>
       <Footer />
     </>
