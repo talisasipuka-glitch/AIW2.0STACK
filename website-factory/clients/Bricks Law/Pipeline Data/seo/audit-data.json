@@ -1,0 +1,51 @@
+{
+  "domainAuthority": 10,
+  "monthlyTraffic": 60,
+  "page1Keywords": 6,
+  "keywordGaps": 7,
+  "missingKeywords": [
+    "personal injury lawyer Atlanta",
+    "car accident lawyer Atlanta",
+    "car accident lawyer Sandy Springs",
+    "truck accident lawyer Atlanta",
+    "motorcycle accident lawyer Atlanta",
+    "wrongful death lawyer Atlanta",
+    "slip and fall lawyer Atlanta",
+    "personal injury lawyer Jonesboro",
+    "personal injury lawyer Dunwoody"
+  ],
+  "topCompetitors": [
+    "John Foy & Associates (johnfoy.com)",
+    "Atlanta Injury Law Group (atlinjurylawgroup.com)",
+    "Hammers Law Firm (hammerslawfirm.com)",
+    "Goldstein Hayes, LLC (goldsteinhayeslaw.com)",
+    "Gary Martin Hays & Associates (garymartinhays.com)"
+  ],
+  "technicalIssues": [
+    "Only 6-8 of 31 site pages appear indexed/visible in search",
+    "No FAQPage or Service schema on any practice-area page",
+    "Organization/LocalBusiness schema present but missing AggregateRating and Attorney/LegalService subtype",
+    "Mailing address is a P.O. Box, not usable as a LocalBusiness street address",
+    "No dedicated case-type or location pages exist",
+    "Blog content is bankruptcy-heavy, minimal personal-injury topical coverage",
+    "No 'No Win, No Fee' or 24/7-availability language found"
+  ],
+  "contentGaps": [
+    "Zero case-type pages (car, truck, motorcycle accident, slip and fall, wrongful death)",
+    "Zero location pages for the 9 service-area cities / 6 counties",
+    "Settlement results buried on secondary page, no homepage callout, no required disclaimer",
+    "No FAQ sections with schema",
+    "No video testimonials or case-study content despite an existing podcast asset"
+  ],
+  "potentialLeadsPerMonth": 8,
+  "currentLeadsPerMonth": 2,
+  "averageJobValue": 6000,
+  "currency": "USD",
+  "monthlyRevenueGap": 33000,
+  "annualRevenueGap": 396000,
+  "topPriorities": [
+    "Build dedicated case-type pages (car, truck, motorcycle accident at minimum) with FAQ + Service schema",
+    "Build location pages for all 9 service-area cities with unique local content",
+    "Surface settlement-results track record on the homepage with required disclaimers, add No Win No Fee + free consultation messaging"
+  ]
+}

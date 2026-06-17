@@ -1,0 +1,84 @@
+{
+    "colors":  [
+                   {
+                       "color":  "rgb(0, 0, 0)",
+                       "count":  603
+                   },
+                   {
+                       "color":  "rgb(255, 255, 255)",
+                       "count":  467
+                   },
+                   {
+                       "color":  "rgb(248, 249, 250)",
+                       "count":  176
+                   },
+                   {
+                       "color":  "rgb(253, 235, 14)",
+                       "count":  90
+                   },
+                   {
+                       "color":  "rgb(105, 105, 105)",
+                       "count":  68
+                   },
+                   {
+                       "color":  "rgb(73, 80, 87)",
+                       "count":  44
+                   },
+                   {
+                       "color":  "rgb(206, 212, 218)",
+                       "count":  44
+                   },
+                   {
+                       "color":  "rgb(85, 85, 85)",
+                       "count":  25
+                   },
+                   {
+                       "color":  "rgb(52, 110, 74)",
+                       "count":  8
+                   },
+                   {
+                       "color":  "rgb(56, 96, 190)",
+                       "count":  5
+                   },
+                   {
+                       "color":  "rgb(39, 69, 92)",
+                       "count":  4
+                   },
+                   {
+                       "color":  "rgb(101, 101, 101)",
+                       "count":  4
+                   },
+                   {
+                       "color":  "rgb(0, 56, 255)",
+                       "count":  3
+                   },
+                   {
+                       "color":  "rgba(255, 255, 255, 0.6)",
+                       "count":  3
+                   },
+                   {
+                       "color":  "rgb(216, 216, 216) rgb(0, 0, 0) rgb(0, 0, 0)",
+                       "count":  3
+                   },
+                   {
+                       "color":  "rgb(0, 72, 255)",
+                       "count":  2
+                   },
+                   {
+                       "color":  "rgb(19, 42, 78)",
+                       "count":  2
+                   },
+                   {
+                       "color":  "rgba(17, 80, 153, 0.76)",
+                       "count":  2
+                   },
+                   {
+                       "color":  "rgb(104, 182, 49)",
+                       "count":  2
+                   },
+                   {
+                       "color":  "rgb(233, 233, 233)",
+                       "count":  2
+                   }
+               ]
+}

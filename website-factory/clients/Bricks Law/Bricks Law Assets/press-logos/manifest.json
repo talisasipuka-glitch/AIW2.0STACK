@@ -1,0 +1,8 @@
+{
+  "category": "press-logos",
+  "required": false,
+  "minCount": 0,
+  "preferredCount": 4,
+  "found": 0,
+  "notes": "No national or local press mentions found in research-data.json (pressMentions: []). No press/as-seen-in logos available. Per photo-manifest.json this category can fall back to trust_badges; the firm's bar-association membership and Avvo recognition (see trust-badges/MANUAL-DROP-NEEDED.md) are the closest available substitute."
+}

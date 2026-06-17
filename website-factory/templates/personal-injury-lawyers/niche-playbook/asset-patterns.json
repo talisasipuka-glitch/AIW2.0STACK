@@ -1,0 +1,53 @@
+{
+  "$schemaVersion": 1,
+  "categories": [
+    {
+      "slug": "founder-photos",
+      "altKeywords": ["attorney", "lawyer", "founder", "partner", "esq", "headshot"],
+      "filenameKeywords": ["attorney", "lawyer", "founder", "partner", "headshot", "team"],
+      "selectorHints": [".attorney-photo img", ".team-member img", "#about img"],
+      "exclude": ["gavel", "scales", "courtroom-stock", "logo"],
+      "priority": 3
+    },
+    {
+      "slug": "client-testimonial-photos",
+      "altKeywords": ["client", "testimonial", "review", "customer"],
+      "filenameKeywords": ["client", "testimonial", "review", "customer"],
+      "selectorHints": [".testimonial img", ".review img"],
+      "exclude": ["logo", "badge", "icon"],
+      "priority": 2
+    },
+    {
+      "slug": "team-photos",
+      "altKeywords": ["team", "staff", "our team", "attorneys", "group"],
+      "filenameKeywords": ["team", "staff", "group", "office-team"],
+      "selectorHints": [".team-photo img", ".our-team img"],
+      "exclude": ["logo", "icon"],
+      "priority": 2
+    },
+    {
+      "slug": "office-exterior",
+      "altKeywords": ["office", "building", "exterior", "location", "law firm building"],
+      "filenameKeywords": ["office", "exterior", "building", "location"],
+      "selectorHints": [".office-photo img", ".location img"],
+      "exclude": ["map-pin", "icon"],
+      "priority": 1
+    },
+    {
+      "slug": "press-logos",
+      "altKeywords": ["as seen in", "featured", "press", "news", "media", "forbes", "cnn", "abc", "nbc", "fox"],
+      "filenameKeywords": ["press", "media", "logo", "news", "featured-in"],
+      "selectorHints": [".press-band img", ".as-seen-in img", ".media-logos img"],
+      "exclude": ["client-logo"],
+      "priority": 1
+    },
+    {
+      "slug": "logo",
+      "altKeywords": ["logo", "law firm logo", "brand"],
+      "filenameKeywords": ["logo", "brand-mark"],
+      "selectorHints": [".logo img", "header img", "#site-logo"],
+      "exclude": ["badge", "press"],
+      "priority": 5
+    }
+  ]
+}

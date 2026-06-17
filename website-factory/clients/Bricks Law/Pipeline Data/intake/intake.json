@@ -1,0 +1,14 @@
+{
+  "businessName": "Bricks Law",
+  "websiteUrl": "https://brickslaw.com",
+  "phone": "(770) 696-4577",
+  "email": "peter@brickslaw.com",
+  "address": "P.O. Box 467007, Atlanta, Georgia 31146",
+  "city": "Atlanta",
+  "state": "Georgia",
+  "ownerName": "Peter Bricks",
+  "niche": "personal-injury-lawyers",
+  "notes": "Current site is built on Wix and splits messaging between personal injury and bankruptcy services. Likely slow mobile load. No clear conversion CTA on the homepage. Service area includes Sandy Springs, Dunwoody, Jonesboro, and Clayton, Cobb, Cherokee, DeKalb, Fulton, and Gwinnett counties. Maintains a second office location in Jonesboro. Address on file is a P.O. Box, may need a real street address for LocalBusiness/Attorney schema, confirm with owner during outreach.",
+  "specialOffers": null,
+  "financing": null
+}

@@ -1,0 +1,43 @@
+{
+  "$schemaVersion": 1,
+  "sectionNames": {
+    "services": "Practice Areas",
+    "founder": "Meet Your Attorney",
+    "reviews": "Client Reviews",
+    "process": "How It Works",
+    "whyChoose": "Why Choose Us",
+    "faq": "Frequently Asked Questions",
+    "cta": "Get Your Free Case Review",
+    "gallery": "Case Results",
+    "offers": "Case Results",
+    "serviceAreas": "Areas We Serve",
+    "blog": "Injury Law Resource Center"
+  },
+  "navLabels": {
+    "home": "Home",
+    "practice-areas": "Practice Areas",
+    "about": "About",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "blog": "Resources"
+  },
+  "ctaVerbs": [
+    "Get",
+    "Start",
+    "Request",
+    "Submit",
+    "Call",
+    "Talk to"
+  ],
+  "audienceNouns": {
+    "endCustomer": "client",
+    "endCustomerPlural": "clients",
+    "endCustomerPossessive": "your case"
+  },
+  "categoryNouns": {
+    "services": "practice area",
+    "servicesPlural": "practice areas",
+    "caseType": "case type"
+  }
+}

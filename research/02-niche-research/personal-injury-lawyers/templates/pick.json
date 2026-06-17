@@ -1,0 +1,22 @@
+{
+  "niche": "personal-injury-lawyers",
+  "decision": "winner",
+  "winner": "morgan-and-morgan",
+  "winnerUrl": "https://www.morganandmorgan.com/",
+  "winnerScore": 90,
+  "rationale": "Student picked Morgan & Morgan as the single base reference. Highest CTA visibility (sticky 'CALL NOW' header, persistent 'OPEN 24/7' badge) and highest visual coherence (black/white/bright-yellow brand palette used consistently). Section order: hero with video + 3-step 'how it works' -> stats/trust -> practice areas -> testimonials -> footer with repeated lead form.",
+  "notedDeviation": "Morgan & Morgan's hero/footer form runs 5 fields (first/last name, phone, zip, email, case description), one over the universal 4-field floor. The niche template will cap the primary hero/footer form at 4 fields (name, phone, email, one-line case description) and route case-type/zip qualification to a second-step flow, per the CRO divergence note in 04-cro-patterns.md.",
+  "scoredAlternatives": [
+    { "site": "dolman-law-group", "score": 89 },
+    { "site": "perdue-and-kidd", "score": 81 }
+  ],
+  "components": {
+    "heroFrom": "morgan-and-morgan",
+    "sectionOrderFrom": "morgan-and-morgan",
+    "trustDensityFrom": "dolman-law-group",
+    "colorSystemFrom": "morgan-and-morgan",
+    "typographyFrom": "morgan-and-morgan",
+    "shapeMotif": "chevron"
+  },
+  "studentNotes": "Serious, professional, trustworthy law-firm tone. Premium restrained motion (not energetic/trade-service feel). Light theme. Bold black/white/yellow brand-yellow accent reserved for CTAs and dollar figures only."
+}

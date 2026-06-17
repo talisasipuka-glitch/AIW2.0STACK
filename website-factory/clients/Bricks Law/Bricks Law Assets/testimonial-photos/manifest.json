@@ -1,0 +1,8 @@
+{
+  "category": "client-testimonial-photos",
+  "required": false,
+  "minCount": 2,
+  "preferredCount": 5,
+  "found": 0,
+  "notes": "No client photos found on the site or in available social channels. The site's testimonials page lists 4 written reviews (Mark M., David H., James K., Donal P.) with no accompanying photos. Per photo-manifest.json guidance, render initials-avatar placeholders for these reviewers rather than using stock people."
+}

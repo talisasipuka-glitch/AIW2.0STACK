@@ -1,0 +1,42 @@
+{
+  "niche": "personal-injury-lawyers",
+  "candidates": [
+    {
+      "slug": "morgan-and-morgan",
+      "url": "https://www.morganandmorgan.com/",
+      "source": "Sub-task 4 CRO crawl",
+      "tier": "large national"
+    },
+    {
+      "slug": "gair-gair-conason",
+      "url": "https://www.gairgair.com/",
+      "source": "Sub-task 6 SEO top ranker, NYC",
+      "tier": "large regional"
+    },
+    {
+      "slug": "dolman-law-group",
+      "url": "https://www.dolmanlaw.com/",
+      "source": "Sub-task 4 CRO crawl",
+      "tier": "mid-size"
+    },
+    {
+      "slug": "omar-ochoa-law-firm",
+      "url": "https://www.omarochoalaw.com/",
+      "source": "Sub-task 4 CRO crawl",
+      "tier": "mid-size"
+    },
+    {
+      "slug": "perdue-and-kidd",
+      "url": "https://perdueandkidd.com/",
+      "source": "Sub-task 6 SEO top ranker, Houston (5.0/30 reviews)",
+      "tier": "small"
+    },
+    {
+      "slug": "pm-law-firm",
+      "url": "https://www.pmtxlaw.com/",
+      "source": "Sub-task 3 business homepages",
+      "tier": "small"
+    }
+  ],
+  "note": "Reduced from 10 to 6 to manage Apify budget (cumulative spend ~$0.98 of $5/month before this phase)."
+}

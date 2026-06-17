@@ -1,39 +1,137 @@
 {
   "version": 2,
   "module": "not_started",
-  "niche": null,
-  "studentName": null,
+  "niche": "personal-injury-lawyers",
+  "studentName": "Talisa",
   "gates": {
-    "setup.complete": false,
-    "agency.brandLocked": false,
-    "m1.profileLocked": false,
-    "m2a.scoresLocked": false,
-    "m2b.researchComplete": false,
-    "m2c.nicheDecided": false,
-    "m2d.templateBuilt": false,
-    "m3.offerLocked": false,
-    "m4.factoryStructureLoaded": false,
-    "m5.factoryBriefLocked": false,
-    "factory.tailored": false,
-    "factory.deployed": false,
-    "m6.engineStructureLoaded": false,
-    "m7.engineBriefLocked": false,
-    "engine.deployed": false,
-    "engine.contextPasted": false,
-    "factory.generated": false
+    "setup.complete": true,
+    "agency.brandLocked": true,
+    "m1.profileLocked": true,
+    "m2a.scoresLocked": true,
+    "m2b.researchComplete": true,
+    "m2c.nicheDecided": true,
+    "m2d.templateBuilt": true,
+    "m3.offerLocked": true,
+    "m4.factoryStructureLoaded": true,
+    "m5.factoryBriefLocked": true,
+    "factory.tailored": true,
+    "factory.deployed": true,
+    "m6.engineStructureLoaded": true,
+    "m7.engineBriefLocked": true,
+    "engine.deployed": true,
+    "engine.contextPasted": true,
+    "factory.generated": true
   },
+  "templateVersion": 1,
   "credentials": {
-    "anthropic": false,
-    "apify": false,
-    "supabase": false,
-    "vercel": false,
-    "assemblyAi": false,
-    "github": false
+    "anthropic": true,
+    "apify": true,
+    "supabase": true,
+    "vercel": true,
+    "assemblyAi": true,
+    "github": true
   },
   "deployments": {
-    "factory": null,
-    "engine": null
+    "factory": "https://bricks-law-website.vercel.app",
+    "engine": "https://content-engine-dusky-xi.vercel.app"
   },
-  "factoryRuns": [],
-  "history": []
+  "factoryRuns": [
+    {
+      "runNumber": 1,
+      "client": "Bricks Law",
+      "niche": "personal-injury-lawyers",
+      "deployUrl": "https://bricks-law-website.vercel.app",
+      "proposalUrl": "https://bricks-law-website-proposal.vercel.app",
+      "deployedAt": "2026-06-15T14:00:00+00:00",
+      "feedbackCapturedAt": "2026-06-15T21:00:00Z",
+      "templateVersion": 1
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2026-06-14T00:00:00Z",
+      "command": "/setup",
+      "outcome": "complete"
+    },
+    {
+      "timestamp": "2026-06-14T00:00:00Z",
+      "command": "/discovery",
+      "outcome": "complete, profile locked for Talisa"
+    },
+    {
+      "timestamp": "2026-06-14T00:00:00Z",
+      "command": "/score-niches",
+      "outcome": "complete, top 3 finalists: real estate agents, personal injury lawyers, motorsport/automotive"
+    },
+    {
+      "timestamp": "2026-06-14T13:10:00Z",
+      "command": "/research",
+      "outcome": "complete, all 3 niches researched (real-estate-agents 26/35, personal-injury-lawyers 24/35, motorsport-automotive 20/35 - performance/tuning sub-segment), sub-tasks 01-07 plus synthesis.md written for each, Apify spend ~$0.98 of $5 monthly budget"
+    },
+    {
+      "timestamp": "2026-06-14T14:00:00Z",
+      "command": "/pick-niche",
+      "outcome": "complete, chosen niche: personal-injury-lawyers (24/35). Reasoning: highest per-case value justifies fee, repeatable trust-stack formula for fast builds, US-focused and scalable from South Africa, biggest growth challenge. research/02-niche-decision.md written."
+    },
+    {
+      "timestamp": "2026-06-14T15:30:00Z",
+      "command": "/build-niche-template",
+      "outcome": "complete, niche template generated at website-factory/templates/personal-injury-lawyers/ (winner: morganandmorgan.com). All 6 validator gates pass (Gates 4-5 clean, no warnings). MANIFEST.json written, registered in config/template-routes.json, templateVersion=1."
+    },
+    {
+      "timestamp": "2026-06-14T16:00:00Z",
+      "command": "/craft-offer",
+      "outcome": "complete, offer pack written to research/03-offer-pack.md. Stage: no portfolio (free homepage upfront). Positioning sentence, one-liner, 3 cold DM versions, and 5 personalized prospect DMs locked."
+    },
+    {
+      "timestamp": "2026-06-14T16:15:00Z",
+      "command": "/load-factory-structure",
+      "outcome": "complete, factory tree scanned and research/_structure/Website_Factory_Structure.md written. Active niche template confirmed at templates/personal-injury-lawyers/."
+    },
+    {
+      "timestamp": "2026-06-14T16:30:00Z",
+      "command": "/generate-wf-brief",
+      "outcome": "complete, research/output/website-factory-brief.md written and locked. Parts A-C filled from research, no niche-tailoring fields missing. Per-client fields (business name, URL, phone, founder, settlement figures, testimonials, press logos) deferred to /run-factory intake."
+    },
+    {
+      "timestamp": "2026-06-14T16:45:00Z",
+      "command": "/tailor-factory",
+      "outcome": "complete, factory chrome registered for personal-injury-lawyers. website-factory/CLAUDE.md orientation updated (title, top paragraph, niche-template pointer). Trust badge registry in templates/personal-injury-lawyers/niche-playbook/trust-signals.json already covered all niche-specific badges from 05-trust-signals.md, no additions needed. Copy-deck lessons seeded at .claude/lessons/by-agent/05-copy-deck.md with locked CTAs, hero pattern, end-customer phrases/fears, banned phrases, trust elements, section order."
+    },
+    {
+      "timestamp": "2026-06-15T00:00:00Z",
+      "command": "/setup-agency",
+      "outcome": "complete, website-factory/clients/_agency/agency-brand.json written for Intake Agency (Talisa Sipuka). Niche vocab, founder profile, intro value props, Winning Formula (Traffic/Trust/Conversion), three-reasons cards, timeline, guarantee, pricing ($5,000 setup / $650 mo retainer / $3,500 one-time offer / $14,000 stacked value), and palette (#185FA5 / #0C447C / #EAB308) all populated. Reviews, client-build carousel, case studies, proof video, and AI infrastructure stack are placeholder content (no portfolio yet), tracked in clients/_agency/PLACEHOLDER-TODO.md for revisit after first client build. No __REQUIRED__ sentinels remain."
+    },
+    {
+      "timestamp": "2026-06-15T20:30:00Z",
+      "command": "/run-factory",
+      "outcome": "complete, first factory run for Bricks Law (Peter Bricks, P.C., personal-injury-lawyers). All 13 stages passed (stage 12 complete_with_flags: LeadForm has no lead-capture backend, founder photo below preferred quality, only 3 of 12 niche trust badges confirmed, Apify social scrapes 402'd). Website live at https://bricks-law-website.vercel.app. Proposal live at https://bricks-law-website-proposal.vercel.app. factoryRuns[0] recorded, factory.deployed=true."
+    },
+    {
+      "timestamp": "2026-06-15T21:10:00Z",
+      "command": "/factory-feedback",
+      "outcome": "complete, Run 1 (Bricks Law) feedback logged at research/lessons/factory-runs.md. Too early for conversion/pushback signal (client hasn't seen the site, no analytics yet). 5 template-change items captured (proposal-pages.json shape, missing anchor IDs, strategy.json services fallback, {city} token, missing agency-logo.svg) - all already fixed during the run. 1 run total, student told to wait for 3+ before /refine-template."
+    },
+    {
+      "timestamp": "2026-06-15T21:30:00Z",
+      "command": "/load-engine-structure",
+      "outcome": "complete, research/_structure/Content_Engine_Structure.md written. Noted the live bucket set uses 'context' as the 6th bucket, not 'my_business' as in the framework's reference table; BusinessProfile is a separate onboarding-wizard profile, not a bucket. m6.engineStructureLoaded=true."
+    },
+    {
+      "timestamp": "2026-06-15T22:00:00Z",
+      "command": "/generate-ce-brief",
+      "outcome": "complete, research/output/content-engine-brief.md written and locked. BusinessProfile fields, context bucket, 19 instructions, 8 expert_brain items, and 20 video_ideas all framed around Intake Agency attracting PI law firm owners as clients. my_voice and inspiration marked [STUDENT TO POPULATE] (no real voice samples or verified creator accounts to draw from, per no-fabrication rule). feedback bucket left empty for auto-population. m7.engineBriefLocked=true."
+    },
+    {
+      "timestamp": "2026-06-16T00:00:00Z",
+      "command": "/deploy-engine",
+      "outcome": "complete. 5 Supabase migrations applied (0001 initial schema through 0006 rename my_business to context). content-engine/.env.local written with all 9 env vars. Vercel project: talisa-sipuka-s-projects/content-engine. Production alias: https://content-engine-dusky-xi.vercel.app. GitHub repo created (talisasipuka-glitch/aiw-engine-personal-injury-lawyers, code push pending - git CLI not in this session). Smoke checks: /login 200, / 200, /api/setup/state 200 all PASS. engine.deployed=true."
+    },
+    {
+      "timestamp": "2026-06-16T00:00:00Z",
+      "command": "/walk-engine",
+      "outcome": "complete. Business profile saved. Context bucket: 1 item (agency overview). Instructions bucket: 1 item (19 rules). expert_brain: 8 items (trust stack, 4-field form, settlement-proof tagging, case-type SEO, named-attorney promise, sticky call-now, free-homepage offer shape, Morgan & Morgan references). video_ideas: 20 items. my_voice and inspiration marked for student to populate manually. feedback left empty. Sample generation confirmed working (3 scripts generated and pushed to pipeline). engine.contextPasted=true."
+    }
+  ]
 }

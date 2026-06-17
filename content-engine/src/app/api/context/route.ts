@@ -93,32 +93,38 @@ const ingestSchema = z.discriminatedUnion("source_type", [
 ])
 
 export async function POST(req: NextRequest) {
-  const user = await requireUser()
-  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  try {
+    const user = await requireUser()
+    if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
 
-  const body = await req.json()
-  const parsed = ingestSchema.safeParse(body)
-  if (!parsed.success) {
-    return NextResponse.json(
-      { error: "Invalid request", issues: parsed.error.issues },
-      { status: 400 }
-    )
+    const body = await req.json()
+    const parsed = ingestSchema.safeParse(body)
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: "Invalid request", issues: parsed.error.issues },
+        { status: 400 }
+      )
+    }
+
+    if (!isBucket(parsed.data.bucket)) {
+      return NextResponse.json({ error: "Invalid bucket" }, { status: 400 })
+    }
+    if (!isSourceType(parsed.data.source_type)) {
+      return NextResponse.json({ error: "Invalid source_type" }, { status: 400 })
+    }
+
+    const webhookBase = process.env.NEXT_PUBLIC_APP_URL
+      ?? (() => {
+          const proto = req.headers.get("x-forwarded-proto") ?? "https"
+          const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host") ?? ""
+          return host ? `${proto}://${host}` : undefined
+        })()
+
+    const result = await startIngest(parsed.data as IngestRequest, webhookBase)
+    return NextResponse.json({ id: result.id, status: result.status }, { status: 202 })
+  } catch (e) {
+    const message = e instanceof Error ? e.message : String(e)
+    console.error("[POST /api/context] unhandled error:", message, e)
+    return NextResponse.json({ error: "Ingest failed", detail: message }, { status: 500 })
   }
-
-  if (!isBucket(parsed.data.bucket)) {
-    return NextResponse.json({ error: "Invalid bucket" }, { status: 400 })
-  }
-  if (!isSourceType(parsed.data.source_type)) {
-    return NextResponse.json({ error: "Invalid source_type" }, { status: 400 })
-  }
-
-  const webhookBase = process.env.NEXT_PUBLIC_APP_URL
-    ?? (() => {
-        const proto = req.headers.get("x-forwarded-proto") ?? "https"
-        const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host") ?? ""
-        return host ? `${proto}://${host}` : undefined
-      })()
-
-  const result = await startIngest(parsed.data as IngestRequest, webhookBase)
-  return NextResponse.json({ id: result.id, status: result.status }, { status: 202 })
 }

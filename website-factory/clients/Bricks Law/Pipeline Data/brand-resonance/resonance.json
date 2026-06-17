@@ -1,0 +1,7 @@
+{
+  "captured_at": "2026-06-15T00:00:00Z",
+  "client": "Bricks Law",
+  "url": "https://brickslaw.com",
+  "skipped": true,
+  "skip_reason": "Required Python packages (Pillow, playwright, anthropic) are not installed in this environment, and installing Playwright's Chromium binary is out of scope for this optional enrichment stage. Stage 7 brand-dna.json was completed using theme_mode='light' (fixed by the niche playbook, perClientOverride=false), so the theme_mode_recommendation this stage would produce would not change the output. Recommend the student run `pip install Pillow playwright anthropic && playwright install chromium` and then `python3 tools/old-site-resonance.py --client \"Bricks Law\"` later if richer voice/photo-style signals for Stage 9 are wanted."
+}

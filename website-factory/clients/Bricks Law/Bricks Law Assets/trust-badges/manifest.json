@@ -1,0 +1,30 @@
+{
+  "category": "trust-badges",
+  "required": false,
+  "found": 3,
+  "source": "brickslaw.com /testimonials page (review-platform link icons)",
+  "items": [
+    {
+      "filename": "review-badge-google.png",
+      "format": "PNG",
+      "description": "Google logo icon, links to the firm's Google review-collection URL",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_390180357e7f472c9bac16ba4e973b4f~mv2.png",
+      "approxDimensions": "162x162"
+    },
+    {
+      "filename": "review-badge-avvo.png",
+      "format": "PNG",
+      "description": "Avvo logo icon, links to Peter Bricks' Avvo profile",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_1c68aec9086c4f6fa77fb057cc7e3fa0~mv2.png",
+      "approxDimensions": "162x162"
+    },
+    {
+      "filename": "review-badge-thumbtack.png",
+      "format": "PNG",
+      "description": "Thumbtack logo icon, links to the firm's Thumbtack profile",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_ec13585388d54931aa07876f3893a946~mv2.png",
+      "approxDimensions": "162x162"
+    }
+  ],
+  "note": "These are third-party review-platform link icons scraped from the client's own testimonials page, not the curated trust-signals.json badge set (no-win-no-fee, state-bar-association, etc.). See MANUAL-DROP-NEEDED.md for the badge-library gap."
+}

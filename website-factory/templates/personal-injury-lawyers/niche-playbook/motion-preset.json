@@ -1,0 +1,23 @@
+{
+  "$schemaVersion": 1,
+  "preset": "restrained",
+  "tier2Enabled": [
+    "scroll-progress-bar",
+    "number-glow"
+  ],
+  "easings": {
+    "default": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "ctaEntry": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "ctaExit": "cubic-bezier(0.4, 0, 1, 1)",
+    "cardHover": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "scrollReveal": "cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  "durations": {
+    "hover": "200ms",
+    "hoverOut": "150ms",
+    "reveal": "600ms",
+    "entranceStagger": "90ms",
+    "pageTransition": "400ms"
+  },
+  "honorsReducedMotion": true
+}

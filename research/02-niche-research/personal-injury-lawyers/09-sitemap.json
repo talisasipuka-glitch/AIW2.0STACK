@@ -1,0 +1,137 @@
+{
+  "niche": "personal-injury-lawyers",
+  "generatedFrom": ["08-starter-template.md", "06-seo-landscape.md", "04-cro-patterns.md", "templates/pick.json"],
+  "layout": {
+    "header": "Header (sticky, CALL NOW + OPEN 24/7 badge, persistent across scroll)",
+    "footer": "Footer (repeated 4-field LeadForm, hours, bar association links, license number)"
+  },
+  "pages": [
+    {
+      "route": "/",
+      "name": "Home",
+      "component": "HomePage",
+      "keywordAnchor": "personal injury lawyer [city]",
+      "sections": [
+        "Hero",
+        "ProcessSteps",
+        "StatsBar",
+        "PressBand",
+        "WhyChooseUs",
+        "PracticeAreasGrid",
+        "FounderStory",
+        "Testimonials",
+        "FAQSection",
+        "CTABand"
+      ]
+    },
+    {
+      "route": "/about",
+      "name": "About",
+      "component": "AboutPage",
+      "keywordAnchor": "[firm name] personal injury attorneys [city]",
+      "sections": [
+        "PageHero",
+        "FounderStory",
+        "WhyChooseUs",
+        "Testimonials",
+        "CTABand"
+      ]
+    },
+    {
+      "route": "/practice-areas",
+      "name": "Practice Areas",
+      "component": "PracticeAreasPage",
+      "keywordAnchor": "personal injury practice areas [city]",
+      "sections": [
+        "PageHero",
+        "PracticeAreasGrid",
+        "CTABand"
+      ]
+    },
+    {
+      "route": "/case-types/:slug",
+      "name": "Case Type Landing Page",
+      "component": "CaseTypeLandingPage",
+      "dynamic": true,
+      "dataSource": "brandDNA.pages.services.items[]",
+      "keywordAnchorPattern": "[case type] lawyer [city]",
+      "sections": [
+        "CaseTypeHero",
+        "RiskRemovalBand",
+        "StatsBar",
+        "CaseTypeExplainer",
+        "FAQSection",
+        "CTABand"
+      ],
+      "instances": [
+        { "slug": "car-accident", "name": "Car Accident" },
+        { "slug": "truck-accident", "name": "Truck Accident" },
+        { "slug": "motorcycle-accident", "name": "Motorcycle Accident" },
+        { "slug": "slip-and-fall", "name": "Slip and Fall" },
+        { "slug": "wrongful-death", "name": "Wrongful Death" },
+        { "slug": "dog-bite", "name": "Dog Bite" },
+        { "slug": "brain-injury", "name": "Brain Injury" }
+      ]
+    },
+    {
+      "route": "/testimonials",
+      "name": "Testimonials",
+      "component": "TestimonialsPage",
+      "keywordAnchor": "[firm name] reviews [city]",
+      "sections": [
+        "PageHero",
+        "Testimonials",
+        "CTABand"
+      ]
+    },
+    {
+      "route": "/faq",
+      "name": "FAQ",
+      "component": "FAQPage",
+      "keywordAnchor": "personal injury lawyer FAQ [city]",
+      "schema": "FAQPage",
+      "sections": [
+        "PageHero",
+        "FAQSection",
+        "CTABand"
+      ]
+    },
+    {
+      "route": "/contact",
+      "name": "Contact",
+      "component": "ContactPage",
+      "keywordAnchor": "contact [firm name] [city]",
+      "sections": [
+        "PageHero",
+        "ContactDetails",
+        "LeadForm"
+      ]
+    },
+    {
+      "route": "/blog",
+      "name": "Blog",
+      "component": "BlogPage",
+      "keywordAnchor": "[firm name] injury law blog",
+      "sections": [
+        "PageHero",
+        "BlogGrid"
+      ]
+    },
+    {
+      "route": "/blog/:slug",
+      "name": "Blog Post",
+      "component": "BlogPostPage",
+      "dynamic": true,
+      "dataSource": "brandDNA.blog_posts[]",
+      "sections": [
+        "BlogPostHeader",
+        "BlogPostBody",
+        "CTABand"
+      ]
+    }
+  ],
+  "notFound": {
+    "route": "*",
+    "component": "NotFoundPage"
+  }
+}

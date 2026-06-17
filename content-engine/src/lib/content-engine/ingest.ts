@@ -1,4 +1,3 @@
-import { JSDOM } from "jsdom"
 import { createAdminSupabase } from "@/lib/supabase/admin"
 import {
   analyseInspirationVideo,
@@ -827,10 +826,7 @@ async function fetchAndExtract(url: string): Promise<{
       },
     })
     const html = await res.text()
-    // Use jsdom for proper DOM-based text extraction. Regex-based HTML
-    // stripping (the previous approach) is fragile against adversarial /
-    // malformed markup (CodeQL `js/bad-tag-filter`). jsdom is already a
-    // content-engine dependency.
+    const { JSDOM } = await import("jsdom")
     const dom = new JSDOM(html)
     const doc = dom.window.document
     // Drop noise elements before extracting text so script / style /

@@ -1,0 +1,8 @@
+2026-06-16T00:00:00Z  engine deployed to Vercel
+  URL:             https://content-engine-dusky-xi.vercel.app
+  Deployment ID:   dpl_4HYGxrq5XGQDTKfZnBAzpjVPqvfj
+  Vercel project:  talisa-sipuka-s-projects/content-engine
+  Supabase ref:    qowzeznvlgeuogyoboxr
+  GitHub repo:     https://github.com/talisasipuka-glitch/aiw-engine-personal-injury-lawyers (code push pending, git CLI not in this session)
+  Migrations:      0001 through 0006 applied (0005 skipped, does not exist)
+  Smoke checks:    /login 200 PASS, / 200 PASS, /api/setup/state 200 PASS

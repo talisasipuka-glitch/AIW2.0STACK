@@ -1,8 +1,8 @@
 {
-  "studentName": null,
-  "currentModule": "m0_setup",
-  "candidateNiches": [],
-  "finalistNiches": [],
-  "chosenNiche": null,
-  "lastUpdated": null
+  "studentName": "Talisa",
+  "currentModule": "m2c_niche_decision",
+  "candidateNiches": ["personal injury lawyers", "real estate agents", "law firms (general)", "motorsport / automotive", "petrol stations / fuel retail", "pest control", "coffee shops", "wellness brands"],
+  "finalistNiches": ["real estate agents", "personal injury lawyers", "motorsport / automotive"],
+  "chosenNiche": "personal-injury-lawyers",
+  "lastUpdated": "2026-06-14"
 }

@@ -1,0 +1,21 @@
+{
+  "category": "founder-photos",
+  "label": "Named attorney portrait(s)",
+  "required": true,
+  "minCount": 1,
+  "preferredCount": 3,
+  "found": 1,
+  "source": "brickslaw.com homepage (LocalBusiness JSON-LD image field, confirmed via website-content-crawler)",
+  "items": [
+    {
+      "filename": "owner-peter-bricks.jpg",
+      "format": "JPG",
+      "description": "Peter Bricks, chest-up, arms crossed, outdoor background (park/lake), navy suit and patterned tie, looking at camera",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_53bbbd07ccd4452a8b04f4333bcd1e26~mv2.jpg",
+      "approxDimensions": "621x876 (site rendition)",
+      "meetsMinimum": false,
+      "note": "Below the 800x1000 preferred minimum and the outdoor background does not match the 'studio_clean' lighting note in photo-manifest.json. Usable as a placeholder/about-page image but flagged for a real photo shoot."
+    }
+  ],
+  "gaps": "Only 1 of preferred 3 portraits found, and it does not meet the studio-clean composition guidance (outdoor background, arms-crossed pose). See MANUAL-DROP-NEEDED.md."
+}

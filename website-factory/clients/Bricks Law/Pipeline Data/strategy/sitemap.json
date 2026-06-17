@@ -1,0 +1,298 @@
+{
+  "core_pages": [
+    {
+      "slug": "/",
+      "page_title": "Personal Injury Lawyer Atlanta | Peter Bricks, P.C.",
+      "h1": "Atlanta Personal Injury Lawyer Fighting for the Compensation You Deserve",
+      "meta_description": "Injured in an accident near Atlanta? Attorney Peter Bricks offers a free consultation and 19 years of experience fighting insurance companies for fair settlements.",
+      "target_keyword": "personal injury lawyer Atlanta",
+      "est_monthly_searches": 480,
+      "content_notes": "Lead with the firm's track record (settlement results, 19 years licensed, Avvo 5.0/22 reviews). Add No Win No Fee + free consultation messaging above the fold. Add Attorney/LegalService schema with AggregateRating once GBP rating is confirmed. Link out to all 6 service pages and the 9 location pages in the footer."
+    }
+  ],
+  "service_pages": [
+    {
+      "slug": "/car-accident-lawyer-atlanta",
+      "page_title": "Car Accident Lawyer Atlanta | Free Consultation | Peter Bricks, P.C.",
+      "h1": "Atlanta Car Accident Lawyer",
+      "meta_description": "Hurt in a car accident in Atlanta? Peter Bricks negotiates with insurance companies and fights for fair compensation. No fee unless we win. Call today.",
+      "target_keyword": "car accident lawyer Atlanta",
+      "est_monthly_searches": 390,
+      "content_notes": "Cover the claims process from accident to settlement, dealing with insurance adjusters, common injuries, and GA's 2-year statute of limitations. Include FAQPage schema (5-8 Q&As) and LegalService schema with serviceType 'Car Accident Representation'. Link to the $1,325,000 and $300,000 settlement results with required disclaimer."
+    },
+    {
+      "slug": "/truck-accident-lawyer-atlanta",
+      "page_title": "Truck Accident Lawyer Atlanta | Peter Bricks, P.C.",
+      "h1": "Atlanta Truck Accident Lawyer",
+      "meta_description": "Truck accidents involve complex liability and large insurance policies. Atlanta attorney Peter Bricks investigates the crash and builds your claim. Free case review.",
+      "target_keyword": "truck accident lawyer Atlanta",
+      "est_monthly_searches": 140,
+      "content_notes": "Explain why truck accident claims differ from car accident claims (commercial insurance policies, federal trucking regulations, multiple liable parties). FAQPage + LegalService schema with serviceType 'Truck Accident Representation'."
+    },
+    {
+      "slug": "/motorcycle-accident-lawyer-atlanta",
+      "page_title": "Motorcycle Accident Lawyer Atlanta | Peter Bricks, P.C.",
+      "h1": "Atlanta Motorcycle Accident Lawyer",
+      "meta_description": "Motorcycle accident injuries are often severe and underrated by insurers. Attorney Peter Bricks fights for the compensation riders deserve. Free consultation.",
+      "target_keyword": "motorcycle accident lawyer Atlanta",
+      "est_monthly_searches": 90,
+      "content_notes": "Address common insurer bias against motorcyclists, severity of injuries, and the claims process. FAQPage + LegalService schema with serviceType 'Motorcycle Accident Representation'."
+    },
+    {
+      "slug": "/pedestrian-accident-lawyer-atlanta",
+      "page_title": "Pedestrian Accident Lawyer Atlanta | Peter Bricks, P.C.",
+      "h1": "Atlanta Pedestrian & Hit-and-Run Accident Lawyer",
+      "meta_description": "Struck by a vehicle or left injured after a hit-and-run in Atlanta? Peter Bricks helps pedestrians pursue compensation through insurance and uninsured-motorist claims.",
+      "target_keyword": "pedestrian accident lawyer Atlanta",
+      "est_monthly_searches": 60,
+      "content_notes": "Cover hit-and-run claims specifically (uninsured motorist coverage), since this is a confirmed practice area per research-data.json. FAQPage + LegalService schema with serviceType 'Pedestrian Accident Representation'."
+    },
+    {
+      "slug": "/slip-and-fall-lawyer-atlanta",
+      "page_title": "Slip and Fall Lawyer Atlanta | Premises Liability | Peter Bricks, P.C.",
+      "h1": "Atlanta Slip and Fall Lawyer",
+      "meta_description": "Injured on someone else's property in Atlanta? Peter Bricks handles slip and fall and premises liability claims with a free initial consultation and no upfront fees.",
+      "target_keyword": "slip and fall lawyer Atlanta",
+      "est_monthly_searches": 110,
+      "content_notes": "Cover premises liability basics (duty of care, proving negligence, common locations like stores and apartment complexes). FAQPage + LegalService schema with serviceType 'Premises Liability Representation'. Frame as a general-PI extension, do not overstate case volume in this area."
+    },
+    {
+      "slug": "/wrongful-death-lawyer-atlanta",
+      "page_title": "Wrongful Death Lawyer Atlanta | Peter Bricks, P.C.",
+      "h1": "Atlanta Wrongful Death Lawyer",
+      "meta_description": "Lost a loved one due to someone else's negligence? Peter Bricks helps Atlanta families pursue wrongful death claims with compassion and a free consultation.",
+      "target_keyword": "wrongful death lawyer Atlanta",
+      "est_monthly_searches": 70,
+      "content_notes": "Tone must be compassionate, not transactional. Cover who can file (GA wrongful death statute), what damages are recoverable, and the process. FAQPage + LegalService schema with serviceType 'Wrongful Death Representation'."
+    }
+  ],
+  "location_pages": [
+    {
+      "slug": "/personal-injury-lawyer-atlanta",
+      "page_title": "Personal Injury Lawyer Atlanta GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Atlanta, GA",
+      "meta_description": "Atlanta accident victims trust Peter Bricks for personal, hands-on representation. Free consultations, no fee unless we win. Serving all of Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Atlanta GA",
+      "est_monthly_searches": 320,
+      "content_notes": "Distinct from the homepage: targets map-pack/near-me intent for Atlanta specifically. Reference local courts (Fulton County), nearby landmarks, and the firm's GBP listing. Attorney schema with areaServed Atlanta. Do not state a street address in schema until the P.O. Box vs real-address discrepancy is resolved."
+    },
+    {
+      "slug": "/personal-injury-lawyer-sandy-springs",
+      "page_title": "Personal Injury Lawyer Sandy Springs GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Sandy Springs, GA",
+      "meta_description": "Injured in Sandy Springs? Peter Bricks represents accident victims throughout Sandy Springs and Fulton County with a free consultation and no upfront fees.",
+      "target_keyword": "personal injury lawyer Sandy Springs",
+      "est_monthly_searches": 90,
+      "content_notes": "Frame as service-area coverage, not a physical office in Sandy Springs unless confirmed. Reference Fulton County courts. Attorney schema with areaServed Sandy Springs."
+    },
+    {
+      "slug": "/personal-injury-lawyer-dunwoody",
+      "page_title": "Personal Injury Lawyer Dunwoody GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Dunwoody, GA",
+      "meta_description": "Dunwoody accident victims can reach Peter Bricks for a free case review. Personal injury representation with 19 years of experience in Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Dunwoody",
+      "est_monthly_searches": 70,
+      "content_notes": "Note: bankruptcy practice is described as based in Dunwoody per the website's bankruptcy page, this is the strongest candidate for a confirmed office location, verify with client before adding a street address to schema. Reference DeKalb County courts."
+    },
+    {
+      "slug": "/personal-injury-lawyer-jonesboro",
+      "page_title": "Personal Injury Lawyer Jonesboro GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Jonesboro, GA",
+      "meta_description": "Jonesboro accident victims can count on Peter Bricks for personal injury representation and a free consultation. Serving Clayton County and beyond.",
+      "target_keyword": "personal injury lawyer Jonesboro",
+      "est_monthly_searches": 50,
+      "content_notes": "Reference Clayton County courts. Frame as service-area coverage."
+    },
+    {
+      "slug": "/personal-injury-lawyer-college-park",
+      "page_title": "Personal Injury Lawyer College Park GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving College Park, GA",
+      "meta_description": "College Park residents injured in an accident can get a free case review from attorney Peter Bricks. No fee unless we win, serving all of Metro Atlanta.",
+      "target_keyword": "personal injury lawyer College Park GA",
+      "est_monthly_searches": 40,
+      "content_notes": "Reference Fulton/Clayton County courts depending on exact location. Frame as service-area coverage."
+    },
+    {
+      "slug": "/personal-injury-lawyer-forest-park",
+      "page_title": "Personal Injury Lawyer Forest Park GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Forest Park, GA",
+      "meta_description": "Forest Park accident victims can reach out to Peter Bricks for a free consultation. Personal injury representation throughout Clayton County and Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Forest Park GA",
+      "est_monthly_searches": 30,
+      "content_notes": "Reference Clayton County courts. Frame as service-area coverage."
+    },
+    {
+      "slug": "/personal-injury-lawyer-lovejoy",
+      "page_title": "Personal Injury Lawyer Lovejoy GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Lovejoy, GA",
+      "meta_description": "Lovejoy accident victims can get a free case evaluation from attorney Peter Bricks. Personal injury representation across Clayton County and Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Lovejoy GA",
+      "est_monthly_searches": 20,
+      "content_notes": "Reference Clayton County courts. Frame as service-area coverage. Low search volume, keep content concise but unique."
+    },
+    {
+      "slug": "/personal-injury-lawyer-morrow",
+      "page_title": "Personal Injury Lawyer Morrow GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Morrow, GA",
+      "meta_description": "Morrow accident victims can reach attorney Peter Bricks for a free consultation. Personal injury representation throughout Clayton County and Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Morrow GA",
+      "est_monthly_searches": 20,
+      "content_notes": "Reference Clayton County courts. Frame as service-area coverage. Low search volume, keep content concise but unique."
+    },
+    {
+      "slug": "/personal-injury-lawyer-riverdale",
+      "page_title": "Personal Injury Lawyer Riverdale GA | Peter Bricks, P.C.",
+      "h1": "Personal Injury Lawyer Serving Riverdale, GA",
+      "meta_description": "Riverdale accident victims can get a free consultation from attorney Peter Bricks. Personal injury representation across Clayton County and Metro Atlanta.",
+      "target_keyword": "personal injury lawyer Riverdale GA",
+      "est_monthly_searches": 30,
+      "content_notes": "Reference Clayton County courts. Frame as service-area coverage."
+    }
+  ],
+  "blog_posts": [
+    {
+      "slug": "/blog/what-to-do-after-a-car-accident-in-atlanta",
+      "page_title": "What to Do After a Car Accident in Atlanta: A Step-by-Step Guide",
+      "h1": "What to Do After a Car Accident in Atlanta",
+      "meta_description": "A step-by-step guide for Atlanta drivers on what to do immediately after a car accident, from calling police to protecting your right to compensation.",
+      "target_keyword": "what to do after a car accident Atlanta",
+      "est_monthly_searches": 60,
+      "content_notes": "Article schema. Link to /car-accident-lawyer-atlanta and the homepage's free consultation CTA."
+    },
+    {
+      "slug": "/blog/georgia-personal-injury-statute-of-limitations",
+      "page_title": "How Long Do You Have to File a Personal Injury Claim in Georgia?",
+      "h1": "Georgia's Personal Injury Statute of Limitations Explained",
+      "meta_description": "Georgia gives injury victims two years to file a personal injury lawsuit. Learn how the statute of limitations works and why acting early protects your claim.",
+      "target_keyword": "Georgia personal injury statute of limitations",
+      "est_monthly_searches": 90,
+      "content_notes": "Article + FAQPage schema. Source: confirmed 2-year GA statute of limitations from the firm's own FAQ page. Link to the homepage and relevant service pages."
+    },
+    {
+      "slug": "/blog/should-you-talk-to-the-insurance-adjuster",
+      "page_title": "Should You Talk to the Insurance Adjuster Before Hiring a Lawyer?",
+      "h1": "Should You Talk to the Insurance Adjuster First?",
+      "meta_description": "Insurance adjusters work for the insurance company, not for you. Learn what to say, what to avoid, and why talking to a lawyer first protects your claim.",
+      "target_keyword": "talking to insurance adjuster after accident",
+      "est_monthly_searches": 50,
+      "content_notes": "Article schema. Link to /car-accident-lawyer-atlanta and /truck-accident-lawyer-atlanta."
+    },
+    {
+      "slug": "/blog/truck-accident-claims-vs-car-accident-claims",
+      "page_title": "Truck Accident Claims: Why They're More Complex Than Car Accidents",
+      "h1": "Why Truck Accident Claims Are More Complex Than Car Accident Claims",
+      "meta_description": "Truck accidents involve commercial insurance policies, federal regulations, and multiple liable parties. Here's how that changes your claim in Georgia.",
+      "target_keyword": "truck accident claim Georgia",
+      "est_monthly_searches": 40,
+      "content_notes": "Article schema. Link to /truck-accident-lawyer-atlanta."
+    },
+    {
+      "slug": "/blog/what-is-my-personal-injury-case-worth",
+      "page_title": "What Is My Personal Injury Case Worth? Understanding Settlement Value",
+      "h1": "What Is My Personal Injury Case Worth?",
+      "meta_description": "Settlement value depends on medical bills, lost wages, and pain and suffering. Learn the factors that determine what your Georgia injury case is worth.",
+      "target_keyword": "personal injury settlement value",
+      "est_monthly_searches": 110,
+      "content_notes": "Article schema. Reference the firm's documented settlement results with the required 'results do not guarantee a similar outcome' disclaimer. Link to /personal-injury-lawyer-atlanta and the results section."
+    },
+    {
+      "slug": "/blog/slip-and-fall-claims-georgia-what-you-need-to-prove",
+      "page_title": "Slip and Fall Claims in Georgia: What You Need to Prove",
+      "h1": "What You Need to Prove in a Georgia Slip and Fall Claim",
+      "meta_description": "Winning a slip and fall claim in Georgia means proving the property owner knew or should have known about the hazard. Here's how that works.",
+      "target_keyword": "slip and fall claim Georgia",
+      "est_monthly_searches": 50,
+      "content_notes": "Article schema. Link to /slip-and-fall-lawyer-atlanta."
+    }
+  ],
+  "utility_pages": [
+    {
+      "slug": "/about",
+      "page_title": "About Peter Bricks | Atlanta Personal Injury & Bankruptcy Attorney",
+      "h1": "Meet Peter Bricks",
+      "meta_description": "Peter Bricks has been a member in good standing of the State Bar of Georgia since 2006, representing injured Atlanta residents with personal, hands-on attention.",
+      "target_keyword": "Peter Bricks attorney Atlanta",
+      "content_notes": "Pull bio, education, bar admissions, and mediator credential from research-data.json. Use owner-peter-bricks.jpg as the portrait."
+    },
+    {
+      "slug": "/contact",
+      "page_title": "Contact Peter Bricks, P.C. | Free Consultation",
+      "h1": "Contact Us for a Free Consultation",
+      "meta_description": "Call (770) 696-4577 or fill out our form for a free, no-obligation consultation with an Atlanta personal injury and bankruptcy attorney.",
+      "target_keyword": "contact Atlanta personal injury lawyer",
+      "content_notes": "Phone, email, contact form. Do not display a street address in structured data until the P.O. Box vs real-address issue is resolved with the client; display the mailing address as text only if needed."
+    },
+    {
+      "slug": "/results",
+      "page_title": "Settlement Results | Peter Bricks, P.C.",
+      "h1": "Case Results",
+      "meta_description": "See the verdicts and settlements Peter Bricks has recovered for injured clients, including a $1,325,000 result and a $300,000 jury verdict.",
+      "target_keyword": "Atlanta personal injury settlements",
+      "content_notes": "Niche-adapted 'Gallery' page: this firm has no visual portfolio, so the gallery slot becomes a settlement-results showcase. Must carry the 'results do not guarantee a similar outcome' disclaimer on every entry per seo-patterns.md. Pull all 5 results from research-data.json nicheExtensions.settlementResults."
+    },
+    {
+      "slug": "/reviews",
+      "page_title": "Client Reviews | Peter Bricks, P.C.",
+      "h1": "What Our Clients Say",
+      "meta_description": "Read reviews from clients Peter Bricks has represented in personal injury and bankruptcy cases throughout Metro Atlanta, including Avvo and Google reviews.",
+      "target_keyword": "Peter Bricks reviews",
+      "content_notes": "Pull the 4 existing testimonials (Mark M., David H., James K., Donal P.) plus Avvo's 22 reviews at 5.0. Link out to Google and Avvo review icons in trust-badges/. Only emit AggregateRating schema once GBP rating is confirmed."
+    },
+    {
+      "slug": "/financing",
+      "page_title": "No Fee Unless We Win | Peter Bricks, P.C.",
+      "h1": "You Don't Pay Unless We Win",
+      "meta_description": "Peter Bricks represents injury clients on a contingency basis, no upfront fees, no hourly bills. You only pay if we recover compensation for you.",
+      "target_keyword": "no win no fee lawyer Atlanta",
+      "content_notes": "Explain the contingency fee structure plainly. This is the page where 'No Win, No Fee' language (recommended locked-copy addition per research-data.json) should be introduced, paired with the fee-structure disclaimer distinguishing it from a results guarantee per seo-patterns.md common pitfalls."
+    },
+    {
+      "slug": "/bankruptcy",
+      "page_title": "Bankruptcy Lawyer Atlanta | Chapter 7 & Chapter 13 | Peter Bricks, P.C.",
+      "h1": "Atlanta Bankruptcy Attorney",
+      "meta_description": "Peter Bricks helps Metro Atlanta residents file Chapter 7 and Chapter 13 bankruptcy with personal attention and a free initial consultation.",
+      "target_keyword": "bankruptcy lawyer Atlanta",
+      "content_notes": "Secondary practice area, carried over from the existing site. Keep as a single page rather than expanding into a second full case-type cluster, the SEO focus of this rebuild is personal injury per the audit's priorities."
+    }
+  ],
+  "services": [
+    "Car Accident Representation",
+    "Truck Accident Representation",
+    "Motorcycle Accident Representation",
+    "Pedestrian Accident Representation",
+    "Premises Liability Representation",
+    "Wrongful Death Representation",
+    "Bankruptcy (Chapter 7 and Chapter 13)"
+  ],
+  "locations": [
+    "Atlanta",
+    "Sandy Springs",
+    "Dunwoody",
+    "Jonesboro",
+    "College Park",
+    "Forest Park",
+    "Lovejoy",
+    "Morrow",
+    "Riverdale"
+  ],
+  "page_count": 28,
+  "seo_priorities": [
+    "Build the 6 case-type service pages (car, truck, motorcycle, pedestrian, slip and fall, wrongful death) with FAQPage + LegalService schema, the single biggest content gap identified in the SEO audit.",
+    "Build the 9 location pages for the service-area cities, each with unique local content (court references, area-specific framing) per the SEO skill's anti-duplication rules.",
+    "Launch the /results page surfacing the firm's settlement track record on the homepage and in navigation, with the required 'results do not guarantee a similar outcome' disclaimer on every entry.",
+    "Introduce 'No Win, No Fee' and free-consultation messaging on the homepage, /financing, and every service page, paired with the fee-structure disclaimer.",
+    "Start a 2-posts-per-month personal-injury-focused blog stream to rebalance the currently bankruptcy-heavy blog and build topical authority for the case-type keywords."
+  ],
+  "content_strategy": {
+    "blog_frequency": "2 posts per month",
+    "content_themes": [
+      "Post-accident step-by-step guidance",
+      "Insurance claims and adjuster interactions",
+      "Georgia statute of limitations and legal deadlines",
+      "Settlement value and compensation factors",
+      "Case-type specific guidance (truck, motorcycle, slip and fall)"
+    ],
+    "schema_types": ["Attorney", "LegalService", "FAQPage", "Article", "BreadcrumbList"]
+  },
+  "internal_linking_strategy": "Homepage links to all 6 service pages, the /results page, and /financing in primary navigation, plus a footer sitemap covering all 9 location pages. Each service page links to its 1-2 most relevant settlement results on /results (with disclaimer) and to the location pages for the cities where that case type is most searched. Each location page links back to the 2-3 most relevant service pages and to /contact. Blog posts link into the service page matching their topic and into /personal-injury-lawyer-atlanta. /financing and /results are linked from every service and location page footer CTA. /bankruptcy stays linked from primary navigation but is not cross-linked into the personal-injury cluster, keeping the two practice areas topically separate."
+}

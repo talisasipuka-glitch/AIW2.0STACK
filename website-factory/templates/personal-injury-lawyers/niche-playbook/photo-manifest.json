@@ -1,0 +1,90 @@
+{
+  "$schemaVersion": 1,
+  "stockBan": true,
+  "photoShootBriefRequired": true,
+  "categories": [
+    {
+      "slug": "founder-photos",
+      "label": "Named attorney portrait(s)",
+      "minCount": 1,
+      "preferredCount": 3,
+      "targetFolder": "founder-photos/",
+      "dimensions": {
+        "minWidth": 800,
+        "minHeight": 1000,
+        "preferredWidth": 1600,
+        "preferredHeight": 2000,
+        "aspectRatio": "4:5"
+      },
+      "lighting": "studio_clean",
+      "composition": "chest-up, looking directly at camera, neutral or office background, professional suit, confident but approachable expression",
+      "notes": "No gavel, scales-of-justice, or law-book props. The attorney's face is the trust signal, not a legal icon.",
+      "required": true
+    },
+    {
+      "slug": "client-testimonial-photos",
+      "label": "Client testimonial photos",
+      "minCount": 2,
+      "preferredCount": 5,
+      "targetFolder": "testimonial-photos/",
+      "dimensions": {
+        "minWidth": 400,
+        "minHeight": 400,
+        "preferredWidth": 800,
+        "preferredHeight": 800,
+        "aspectRatio": "1:1"
+      },
+      "lighting": "natural_indoor",
+      "composition": "head-and-shoulders, candid or lightly posed, real client where consent exists",
+      "notes": "Tie each photo to a case type and outcome where possible. If no client photos are available, render initials-avatar placeholders rather than stock people.",
+      "required": false
+    },
+    {
+      "slug": "team-photos",
+      "label": "Team / staff group photo",
+      "minCount": 0,
+      "preferredCount": 1,
+      "targetFolder": "team-photos/",
+      "dimensions": {
+        "minWidth": 1200,
+        "minHeight": 800,
+        "aspectRatio": "3:2"
+      },
+      "lighting": "studio_clean",
+      "composition": "group shot, office or exterior signage background, everyone looking at camera",
+      "notes": "Used for multi-attorney or multi-office firms on the About page.",
+      "required": false
+    },
+    {
+      "slug": "office-exterior",
+      "label": "Office exterior / signage",
+      "minCount": 0,
+      "preferredCount": 1,
+      "targetFolder": "office-photos/",
+      "dimensions": {
+        "minWidth": 1200,
+        "minHeight": 800,
+        "aspectRatio": "3:2"
+      },
+      "lighting": "bright_midday_clean",
+      "composition": "wide shot including firm signage, clean and professional",
+      "notes": "Supports local trust and multi-office location pages.",
+      "required": false
+    },
+    {
+      "slug": "press-logos",
+      "label": "Press / as-seen-in logos",
+      "minCount": 0,
+      "preferredCount": 4,
+      "targetFolder": "press-logos/",
+      "dimensions": {
+        "minWidth": 200,
+        "minHeight": 60
+      },
+      "lighting": "any",
+      "composition": "logo only, transparent or white background",
+      "notes": "If no national press exists, substitute local news features or bar association recognitions. Falls back to trust_badges if none found.",
+      "required": false
+    }
+  ]
+}

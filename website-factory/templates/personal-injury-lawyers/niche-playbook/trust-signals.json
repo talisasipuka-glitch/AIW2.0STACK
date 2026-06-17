@@ -1,0 +1,122 @@
+{
+  "$schemaVersion": 1,
+  "trustStripCount": 9,
+  "placements": [
+    "hero",
+    "floating-strip",
+    "why-choose-us",
+    "reviews",
+    "footer",
+    "service-page"
+  ],
+  "badges": [
+    {
+      "id": "no-win-no-fee",
+      "name": "No Win, No Fee Guarantee",
+      "matchKeywords": ["no win no fee", "no fee unless we win", "contingency", "free until we win"],
+      "filename": "no-win-no-fee.svg",
+      "tier": "elite",
+      "isMultiColor": false
+    },
+    {
+      "id": "state-bar-association",
+      "name": "State Bar Association Member",
+      "matchKeywords": ["state bar", "bar association", "licensed attorney", "bar number"],
+      "filename": "state-bar-association.svg",
+      "issuer": "State Bar Association",
+      "tier": "entry",
+      "isMultiColor": false
+    },
+    {
+      "id": "million-dollar-advocates-forum",
+      "name": "Million Dollar Advocates Forum",
+      "matchKeywords": ["million dollar advocates", "million dollar advocates forum"],
+      "filename": "million-dollar-advocates-forum.svg",
+      "issuer": "Million Dollar Advocates Forum",
+      "issuerUrl": "https://www.milliondollaradvocates.com/",
+      "tier": "premium",
+      "isMultiColor": false
+    },
+    {
+      "id": "national-trial-lawyers",
+      "name": "National Trial Lawyers Top 100",
+      "matchKeywords": ["national trial lawyers", "top 100 trial lawyers", "top 100 high stakes litigators"],
+      "filename": "national-trial-lawyers.svg",
+      "issuer": "The National Trial Lawyers",
+      "issuerUrl": "https://thenationaltriallawyers.org/",
+      "tier": "premium",
+      "isMultiColor": false
+    },
+    {
+      "id": "super-lawyers",
+      "name": "Super Lawyers Rated",
+      "matchKeywords": ["super lawyers", "superlawyers"],
+      "filename": "super-lawyers.svg",
+      "issuer": "Super Lawyers",
+      "issuerUrl": "https://www.superlawyers.com/",
+      "tier": "mid",
+      "isMultiColor": false
+    },
+    {
+      "id": "avvo-rating",
+      "name": "AVVO Rated",
+      "matchKeywords": ["avvo", "avvo rating", "avvo 10.0"],
+      "filename": "avvo-rating.svg",
+      "issuer": "AVVO",
+      "issuerUrl": "https://www.avvo.com/",
+      "tier": "mid",
+      "isMultiColor": false
+    },
+    {
+      "id": "bbb-accredited",
+      "name": "BBB Accredited Business",
+      "matchKeywords": ["bbb", "better business bureau", "bbb accredited"],
+      "filename": "bbb-accredited.svg",
+      "issuer": "Better Business Bureau",
+      "issuerUrl": "https://www.bbb.org/",
+      "tier": "entry",
+      "isMultiColor": false
+    },
+    {
+      "id": "google-reviews",
+      "name": "Google Reviews Rating",
+      "matchKeywords": ["google reviews", "google rating", "google business profile"],
+      "filename": "google-reviews.svg",
+      "issuer": "Google",
+      "tier": "entry",
+      "isMultiColor": false
+    },
+    {
+      "id": "as-seen-in",
+      "name": "As Seen In (Press)",
+      "matchKeywords": ["as seen in", "featured in", "press", "media coverage", "news"],
+      "filename": "as-seen-in.svg",
+      "tier": "mid",
+      "isMultiColor": false
+    },
+    {
+      "id": "bilingual-spanish",
+      "name": "Se Habla Espanol",
+      "matchKeywords": ["bilingual", "spanish", "se habla espanol", "habla espanol"],
+      "filename": "bilingual-spanish.svg",
+      "tier": "entry",
+      "isMultiColor": false
+    },
+    {
+      "id": "open-24-7",
+      "name": "Open 24/7",
+      "matchKeywords": ["open 24 hours", "24/7", "available 24 hours", "open all hours"],
+      "filename": "open-24-7.svg",
+      "tier": "entry",
+      "isMultiColor": false
+    },
+    {
+      "id": "community-involvement",
+      "name": "Community Involvement",
+      "matchKeywords": ["community", "sponsor", "local charity", "volunteer", "in the community"],
+      "filename": "community-involvement.svg",
+      "tier": "entry",
+      "isMultiColor": false
+    }
+  ]
+}

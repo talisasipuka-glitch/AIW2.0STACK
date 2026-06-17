@@ -318,6 +318,9 @@ def compose_agency_vars(brand: dict[str, Any]) -> dict[str, str]:
         # Winning formula outcome line (e.g. "More leads booked")
         "AGENCY_FORMULA_OUTCOME": formula.get("outcome_line", ""),
 
+        # SEO audit card heading (Section "You. At #1.")
+        "AGENCY_TRAFFIC_AUDIT_HEADING": (formula.get("traffic", {}) or {}).get("audit_heading", "10 things we do on your SEO"),
+
         # SOP unlock + blueprint
         "AGENCY_SOP_PASSWORD": brand.get("sop_password", ""),
         "AGENCY_BLUEPRINT_NAME": brand.get("blueprint_pdf_title", ""),
@@ -767,6 +770,18 @@ def compose_vars(client_name: str, paths: dict[str, Path]) -> dict[str, str]:
         "5,000",
     )
 
+    # Address + license display strings for the SEO audit's mini-GMB panel
+    company_address_display = pick_first(
+        get_path(brand_dna, "address.full"),
+        ", ".join(x for x in [get_path(brand_dna, "address.street"), city_primary, state_code] if x),
+        "",
+    )
+    company_license_display = pick_first(
+        get_path(brand_dna, "company.licenseNumber"),
+        get_path(brand_dna, "trust.license_number"),
+        "",
+    )
+
     # Logo HTML — populated after asset copy has confirmed the logo file exists
     company_logo_html = f'<img src="agency-assets/client-logo.png" alt="{company_name}">'
 
@@ -814,6 +829,8 @@ def compose_vars(client_name: str, paths: dict[str, Path]) -> dict[str, str]:
         "BBB_NUMBER": str(bbb_number) if bbb_number else "",
         "SETUP_FEE_DEFAULT": str(setup_fee_default).replace("$", ""),
         "LIVE_PREVIEW_URL": _resolve_live_preview_url(client_name),
+        "COMPANY_ADDRESS_DISPLAY": company_address_display or "",
+        "COMPANY_LICENSE_DISPLAY": company_license_display or "",
     }
 
 
@@ -966,7 +983,7 @@ def _js_str(s: str) -> str:
     return (s or "").replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").replace("\r", " ").replace("\t", " ")
 
 
-def derive_page_data(strategy: dict[str, Any], owner_first: str, brand_short: str, sitemap: dict[str, Any] | None = None, niche_slug: str | None = None) -> tuple[str, dict[str, str]]:
+def derive_page_data(strategy: dict[str, Any], owner_first: str, brand_short: str, sitemap: dict[str, Any] | None = None, niche_slug: str | None = None, city_primary: str = "") -> tuple[str, dict[str, str]]:
     """
     Generate the PAGE_DATA JS object literal the proposal template's openPage()
     modal expects. Each section is a 3-tuple [name, description, tag]; each
@@ -1019,6 +1036,7 @@ def derive_page_data(strategy: dict[str, Any], owner_first: str, brand_short: st
         "brand_short": brand_short or "the company",
         "service_count": str(service_count),
         "city_count": str(city_count),
+        "city": city_primary,
     }
 
     def _expand_sections(section_list: list[dict[str, Any]], extra_tokens: dict[str, str] | None = None) -> list[list[str]]:
@@ -1396,10 +1414,20 @@ def main() -> int:
 
     print("\n[5/6] generating PAGE_DATA from the website template route list")
     strategy = read_json(paths["strategy"])
+    # strategy.json doesn't always carry services / service_areas (those live
+    # in brand-dna.json as `services` / `serviceAreas`); fall back to brand-dna
+    # so the sitemap pyramid's silo chips and service/city counts aren't empty.
+    if not strategy.get("services") or not strategy.get("service_areas"):
+        brand_dna_for_pages = read_json(paths["brand_dna"])
+        strategy = dict(strategy)
+        if not strategy.get("services"):
+            strategy["services"] = brand_dna_for_pages.get("services")
+        if not strategy.get("service_areas"):
+            strategy["service_areas"] = brand_dna_for_pages.get("serviceAreas")
     sitemap = read_json(paths["sitemap"]) if paths["sitemap"].exists() else {}
     owner_first = vars_map.get("OWNER_FIRST_NAME", "")
     brand_short = vars_map.get("COMPANY_BRAND_SHORT", "")
-    page_data_js, sitemap_extras = derive_page_data(strategy, owner_first, brand_short, sitemap=sitemap)
+    page_data_js, sitemap_extras = derive_page_data(strategy, owner_first, brand_short, sitemap=sitemap, city_primary=vars_map.get("CITY_PRIMARY", ""))
     print(f"  {page_data_js.count('sections:')} page entries; "
           f"{sitemap_extras['SERVICE_COUNT']} services + {len([x for x in sitemap_extras['LOCATION_CHIPS_HTML'].split('silo-chip') if 'span' in x])} location chips")
     # Merge sitemap extras into the substitution map. These are NEW placeholders
@@ -1422,6 +1450,13 @@ def main() -> int:
     out = inject_traffic_feature_card(out, agency_brand)
     out = inject_traffic_audit_bullets(out, agency_brand)
     print(f"  injected agency blocks: reviews + client-builds + case-studies + trust/conversion/traffic cards")
+
+    # The agency-block injections above can introduce new {{VAR}} placeholders
+    # (e.g. {{LIVE_PREVIEW_URL}} inside a feature-card CTA from
+    # _render_feature_card), which the earlier substitute() pass never saw.
+    # Re-substitute any vars_map placeholders that survived injection.
+    for key, value in vars_map.items():
+        out = out.replace(f"{{{{{key}}}}}", value)
 
     # Inject the agency's palette as a <style data-agency-palette> override
     # right before </head> so the agency's brand colors win over the template's

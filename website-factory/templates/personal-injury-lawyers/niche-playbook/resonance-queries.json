@@ -1,0 +1,22 @@
+{
+  "$schemaVersion": 1,
+  "queryTemplates": [
+    "{primaryService} {city}",
+    "best personal injury lawyer {city}",
+    "{city} car accident lawyer recommendations",
+    "how to choose a personal injury lawyer {state}",
+    "do I need a lawyer after a car accident {city}",
+    "personal injury settlement {state} how long",
+    "is it worth suing for pain and suffering {state}"
+  ],
+  "subreddits": {
+    "cityBased": ["r/{city}", "r/{state}"],
+    "nicheGeneral": ["r/legaladvice", "r/AskALawyer", "r/personalinjury"],
+    "audience": ["r/CarAccidentVictims", "r/insurance"]
+  },
+  "perQueryLimits": {
+    "posts": 40,
+    "commentsPerPost": 50
+  },
+  "costCapUsd": 0.5
+}

@@ -1,0 +1,49 @@
+{
+  "$schemaVersion": 1,
+  "defaultMood": "bright_midday_clean",
+  "moods": {
+    "bright_midday_clean": {
+      "lightingBrief": "Even, bright studio-quality light with soft shadows. Clean, neutral background that reads as professional and trustworthy, not staged.",
+      "skyDescriptor": "n/a, indoor or close studio composition",
+      "shadowDescriptor": "minimal, soft-edged",
+      "colorWarmth": "neutral"
+    },
+    "settlement_proof": {
+      "lightingBrief": "Bright, confident studio lighting on the attorney with the dollar figure rendered in sharp accent-yellow against a near-black or white panel, high contrast for legibility.",
+      "skyDescriptor": "n/a",
+      "shadowDescriptor": "crisp, defined edges around the figure",
+      "colorWarmth": "neutral"
+    },
+    "risk_removal": {
+      "lightingBrief": "Warm, approachable lighting on the attorney's face, slightly softer than settlement_proof, to convey reassurance and direct access rather than aggression.",
+      "skyDescriptor": "n/a",
+      "shadowDescriptor": "soft, diffused",
+      "colorWarmth": "warm"
+    },
+    "golden_hour_warm": {
+      "lightingBrief": "Warm directional light from a low angle, long soft shadows, used sparingly for community or local-roots framing on About pages.",
+      "skyDescriptor": "warm-toned sky if exterior",
+      "shadowDescriptor": "long, soft",
+      "colorWarmth": "warm"
+    },
+    "overcast_calm": {
+      "lightingBrief": "Soft, diffused overcast light, flattering and calm, used for office exterior or community photos.",
+      "skyDescriptor": "overcast, even grey",
+      "shadowDescriptor": "minimal, soft",
+      "colorWarmth": "cool"
+    },
+    "dawn_soft_optimistic": {
+      "lightingBrief": "Soft early-morning light suggesting a fresh start, used for 'getting your life back on track' framing.",
+      "skyDescriptor": "pale dawn tones",
+      "shadowDescriptor": "long, gentle",
+      "colorWarmth": "neutral"
+    },
+    "dramatic_dusk": {
+      "lightingBrief": "Reserved. Not used for hero compositions in this niche; the niche avoids dramatic or moody lighting that could feel intimidating to an injured visitor.",
+      "skyDescriptor": "n/a",
+      "shadowDescriptor": "n/a",
+      "colorWarmth": "cool"
+    }
+  },
+  "regionalOverrides": []
+}

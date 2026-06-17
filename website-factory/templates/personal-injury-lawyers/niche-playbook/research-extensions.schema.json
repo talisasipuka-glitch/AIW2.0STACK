@@ -1,0 +1,194 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Research Data Niche Extensions, Personal Injury Lawyers",
+  "description": "Extends the universal research-data.json shape (research/_framework + .claude/skills/research/SKILL.md) with fields under nicheExtensions['personal-injury-lawyers'].",
+  "type": "object",
+  "properties": {
+    "nicheExtensions": {
+      "type": "object",
+      "properties": {
+        "personal-injury-lawyers": {
+          "type": "object",
+          "required": [
+            "caseTypesHandled",
+            "contingencyFee",
+            "freeConsultation",
+            "availabilityClaim",
+            "bilingualServices",
+            "officeLocations",
+            "homeHospitalVisits",
+            "barAdmissions",
+            "yearsLicensed",
+            "professionalAffiliations",
+            "pressMentions",
+            "settlementResults",
+            "testimonialThemes",
+            "businessModel",
+            "marketSegment",
+            "specialOffers",
+            "financing",
+            "brandVoiceTags"
+          ],
+          "properties": {
+            "caseTypesHandled": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "car-accident",
+                  "truck-accident",
+                  "motorcycle-accident",
+                  "slip-and-fall",
+                  "wrongful-death",
+                  "dog-bite",
+                  "brain-injury",
+                  "medical-malpractice",
+                  "workers-comp",
+                  "product-liability",
+                  "premises-liability",
+                  "other"
+                ]
+              }
+            },
+            "contingencyFee": {
+              "type": "object",
+              "required": ["offered", "termsText"],
+              "properties": {
+                "offered": { "type": "boolean" },
+                "termsText": { "type": "string" }
+              }
+            },
+            "freeConsultation": { "type": "boolean" },
+            "availabilityClaim": {
+              "type": "string",
+              "enum": ["24/7", "business hours", "Not found"]
+            },
+            "bilingualServices": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "officeLocations": {
+              "type": "object",
+              "required": ["count", "cities"],
+              "properties": {
+                "count": { "type": "integer", "minimum": 0 },
+                "cities": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            },
+            "homeHospitalVisits": { "type": "boolean" },
+            "barAdmissions": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "yearsLicensed": {
+              "oneOf": [
+                { "type": "integer", "minimum": 0 },
+                { "type": "string", "const": "Not found" }
+              ]
+            },
+            "professionalAffiliations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "tier", "yearOrRating"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "tier": { "type": ["string", "null"] },
+                  "yearOrRating": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "pressMentions": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "settlementResults": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["caseType", "amountDisplay", "year", "description"],
+                "properties": {
+                  "caseType": { "type": "string" },
+                  "amountDisplay": { "type": "string" },
+                  "year": { "type": ["string", "null"] },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "testimonialThemes": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "businessModel": {
+              "type": "object",
+              "required": ["primaryFocus"],
+              "properties": {
+                "primaryFocus": {
+                  "type": "string",
+                  "enum": ["contingency", "hourly", "hybrid"]
+                }
+              }
+            },
+            "marketSegment": {
+              "type": "object",
+              "required": ["primaryFocus"],
+              "properties": {
+                "primaryFocus": {
+                  "type": "string",
+                  "enum": ["individual-injury", "mass-tort", "both"]
+                }
+              }
+            },
+            "specialOffers": {
+              "type": "object",
+              "required": [
+                "freeConsultation",
+                "noFeeUnlessWeWin",
+                "bilingual",
+                "virtualConsultation",
+                "homeHospitalVisits"
+              ],
+              "properties": {
+                "freeConsultation": { "type": "boolean" },
+                "noFeeUnlessWeWin": { "type": "boolean" },
+                "bilingual": { "type": "boolean" },
+                "virtualConsultation": { "type": "boolean" },
+                "homeHospitalVisits": { "type": "boolean" }
+              }
+            },
+            "financing": {
+              "type": "object",
+              "required": ["offered"],
+              "properties": {
+                "offered": { "type": "boolean" },
+                "details": { "type": ["string", "null"] }
+              }
+            },
+            "brandVoiceTags": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 5,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "fighter",
+                  "protector",
+                  "compassionate",
+                  "accessible",
+                  "aggressive",
+                  "trustworthy",
+                  "local",
+                  "family-oriented",
+                  "results-driven"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

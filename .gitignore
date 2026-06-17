@@ -25,6 +25,10 @@ research/02-niche-research/*/raw/
 .claude/cache/
 .claude/.local/
 
+# Test and debug artifacts
+test-crawl.json
+test-output.json
+
 # OS files
 *.swp
 *.swo

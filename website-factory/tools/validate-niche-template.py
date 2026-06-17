@@ -323,17 +323,33 @@ def gate_3_vite_build(niche_dir: Path, skip_install: bool) -> tuple[bool, str]:
 
     # Snapshot original, then write a synthetic-filled version for the build.
     original = brand_dna_js.read_text()
+
+    # The build's prebuild hook (scripts/inject-theme.mjs) rewrites
+    # index.css, index.html, and tailwind.config.js in place from
+    # brand-dna.js. Snapshot these too so the synthetic-fill smoke test
+    # doesn't leave the niche template stamped with synthetic tokens.
+    side_effect_files = [
+        niche_dir / "src" / "index.css",
+        niche_dir / "index.html",
+        niche_dir / "tailwind.config.js",
+    ]
+    side_effect_originals = {
+        p: p.read_text() for p in side_effect_files if p.exists()
+    }
+
     synthetic_ok, synthetic_msg = _write_synthetic_filled(brand_dna_js, brand_dna_example)
     if not synthetic_ok:
         return False, f"could not write synthetic brand-dna.js: {synthetic_msg}"
 
     try:
+        npm_shell = sys.platform == "win32"
         if not skip_install:
             install = subprocess.run(
                 ["npm", "install", "--silent"],
                 cwd=niche_dir,
                 capture_output=True,
                 text=True,
+                shell=npm_shell,
             )
             if install.returncode != 0:
                 return False, f"npm install exit={install.returncode}\n\nSTDOUT:\n{install.stdout[-2000:]}\n\nSTDERR:\n{install.stderr[-2000:]}"
@@ -343,6 +359,7 @@ def gate_3_vite_build(niche_dir: Path, skip_install: bool) -> tuple[bool, str]:
             cwd=niche_dir,
             capture_output=True,
             text=True,
+            shell=npm_shell,
         )
         if build.returncode != 0:
             return False, f"npm run build exit={build.returncode}\n\nSTDOUT:\n{build.stdout[-3000:]}\n\nSTDERR:\n{build.stderr[-3000:]}"
@@ -355,6 +372,8 @@ def gate_3_vite_build(niche_dir: Path, skip_install: bool) -> tuple[bool, str]:
         # Always restore the original sentinel-laden brand-dna.js so the
         # niche template ships in the expected state.
         brand_dna_js.write_text(original)
+        for p, text in side_effect_originals.items():
+            p.write_text(text)
 
 
 def _write_synthetic_filled(brand_dna_js: Path, brand_dna_example: Path) -> tuple[bool, str]:
@@ -396,7 +415,7 @@ def _write_synthetic_filled(brand_dna_js: Path, brand_dna_example: Path) -> tupl
     helper_path.write_text(helper_js)
     try:
         result = subprocess.run(
-            ["node", "--input-type=module", "-e", f"import('{helper_path.as_posix()}').catch(e => {{ console.error(e); process.exit(1); }})"],
+            ["node", "--input-type=module", "-e", "import('./.synthetic-fill.tmp.mjs').catch(e => { console.error(e); process.exit(1); })"],
             cwd=brand_dna_js.parent,
             capture_output=True,
             text=True,

@@ -1,0 +1,25 @@
+# 05 — Trust Signals (Motorsport / Automotive: Performance & Tuning Shops)
+
+Pure synthesis from Sub-task 1 (agencies), Sub-task 2 (customer voice / GBP reviews), Sub-task 3 (copy patterns), and Sub-task 4 (CRO patterns). No new Apify calls.
+
+---
+
+## Top 5 trust signals, in priority order
+
+1. **Named, vehicle-tagged testimonials (driver name + car model).** This is the single most repeated and most niche-specific trust pattern across all four sub-tasks. DME Tuning's "WHAT DRIVERS ARE SAYING" section names each reviewer alongside their exact car (McLaren 720s Driver, BMW M5 Driver, BMW M6 Driver) — for an end customer, seeing a review from someone with the SAME car (or class of car) they own is far more persuasive than a generic star rating. A niche template should structure every testimonial slot to capture and display the customer's vehicle, not just their name.
+2. **Specialist/rare-skill expertise proof.** Sub-task 2's standout review called out a specific, hard-to-find skill ("hard to find someone that actually rebuild a carburetor"); Sub-task 3 saw repeated "years of experience" claims (25+ years API, 15+ years Eurocharged, 60 years HG) and craftsmanship language ("We do NOT believe in cutting corners"). The end customer is often trusting a shop with non-routine or irreplaceable work, so proof of specific, hard-won expertise outweighs generic "friendly service" framing.
+3. **Aggregate review count + rating, displayed prominently and early.** Serious HP's homepage shows a 28-review carousel with star ratings directly below the hero; GBP listings carry review counts as a baseline expectation. Consistent with the pattern in both prior niches (RE, PI), an aggregate trust number placed high on the page is a near-universal expectation.
+4. **Heritage / "old school" / local-identity framing.** Sub-task 2's reviews praised Westside Performance as "OG... old school... part of West LA," and Sub-task 3 saw "Houston's Import Performance Headquarters" and "North County San Diego Performance and Racing." For an end customer choosing where to take an expensive or modified vehicle, a shop's visible roots in the local car community read as reliability — this is somewhat analogous to the "not a settlement mill" trust signal in the personal-injury niche (an implicit "we're not a fly-by-night operation" claim).
+5. **Community/brand-identity signals (merch, social following, partner logos).** Fullblown Performance's branded merchandise shop (hoodies, posters, license plates) and "We Have Partnered With The Best" brand-logo row, plus near-universal Instagram/YouTube CTAs, are a niche-unique trust signal: a shop with a visible fanbase and brand partnerships reads as established and embedded in the enthusiast community, not just a transactional repair shop.
+
+## Niche-specific trust elements
+
+- **Vehicle-specific package pages / make-model-year selector.** Not strictly a "trust badge," but functions as one: a shop that has pre-built packages for the visitor's exact car (Serious HP's ~16 named platforms, DME's brand/model tuning carousel) signals deep, specific familiarity with that vehicle rather than generic "we work on all cars" claims.
+- **Brand/platform authorization signals.** Eurocharged's "200+ Authorized Dealers" and references to specific tuning platforms (COBB AccessPort, ECUtek, HP Tuners from Sub-task 1's agency research) function like the "state bar admission" or "Million Dollar Advocates Forum" badges in the personal-injury niche — third-party authorization that a layperson can't easily verify but reads as a quality floor.
+- **Financing availability.** Fullblown's "Up to 6 Months No Interest on purchases of $199+" addresses the same cost-barrier anxiety as the personal-injury niche's "No Win, No Fee" — performance work is a large, often unplanned discretionary expense, and financing removes the "can I afford this" objection.
+- **Founder/legacy story.** HG Performance's founder narrative (Heinz Gietz, 60 years in the German automobile family) mirrors the founder-origin-story pattern from the personal-injury niche (Dolman Law's "personal cell phone access to the partner") — applied here to mechanical lineage rather than legal advocacy.
+- **Phone-first sticky CTA.** Fullblown's persistent "Call Us At [number]" utility bar mirrors Morgan & Morgan's sticky "CALL NOW" header — even in a niche where the primary on-page CTA is a vehicle selector, a visible phone number remains a baseline trust/access expectation.
+
+## What's notably different from RE and PI
+
+Unlike the personal-injury niche (where the dominant trust currency was a settlement-DOLLAR figure) or the real-estate niche (where it was largely agent credentials and local market stats), the performance/tuning niche's dominant trust currency is **specificity to the customer's exact vehicle** — named testimonials tagged by car model, pre-built packages by platform, and a selector tool that personalizes the page before any contact information is exchanged. A niche template for this sub-segment should treat "what car do you have" as the first and most important personalization axis, ahead of location or service type.

@@ -1,0 +1,153 @@
+{
+  "loop": 0,
+  "aggregate": 0.9962,
+  "regions": {
+    "Header_desktop": {
+      "score": 1.0,
+      "weight": 0.1,
+      "threshold": 0.92,
+      "passed": true
+    },
+    "Hero_desktop": {
+      "score": 1.0,
+      "weight": 0.2,
+      "threshold": 0.95,
+      "passed": true
+    },
+    "ProcessSteps_desktop": {
+      "score": 1.0,
+      "weight": 0.08,
+      "threshold": 0.88,
+      "passed": true
+    },
+    "StatsBar_desktop": {
+      "score": 0.9762,
+      "weight": 0.12,
+      "threshold": 0.92,
+      "passed": true
+    },
+    "PressBand_desktop": {
+      "score": 1.0,
+      "weight": 0.06,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "WhyChooseUs_desktop": {
+      "score": 1.0,
+      "weight": 0.08,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "PracticeAreasGrid_desktop": {
+      "score": 1.0,
+      "weight": 0.12,
+      "threshold": 0.9,
+      "passed": true
+    },
+    "FounderStory_desktop": {
+      "score": 1.0,
+      "weight": 0.07,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "Testimonials_desktop": {
+      "score": 1.0,
+      "weight": 0.07,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "FAQSection_desktop": {
+      "score": 1.0,
+      "weight": 0.05,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "CTABand_desktop": {
+      "score": 1.0,
+      "weight": 0.03,
+      "threshold": 0.88,
+      "passed": true
+    },
+    "Footer_desktop": {
+      "score": 1.0,
+      "weight": 0.02,
+      "threshold": 0.88,
+      "passed": true
+    },
+    "Header_mobile": {
+      "score": 1.0,
+      "weight": 0.1,
+      "threshold": 0.92,
+      "passed": true
+    },
+    "Hero_mobile": {
+      "score": 1.0,
+      "weight": 0.2,
+      "threshold": 0.95,
+      "passed": true
+    },
+    "ProcessSteps_mobile": {
+      "score": 1.0,
+      "weight": 0.08,
+      "threshold": 0.88,
+      "passed": true
+    },
+    "StatsBar_mobile": {
+      "score": 0.9602,
+      "weight": 0.12,
+      "threshold": 0.92,
+      "passed": true
+    },
+    "PressBand_mobile": {
+      "score": 1.0,
+      "weight": 0.06,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "WhyChooseUs_mobile": {
+      "score": 1.0,
+      "weight": 0.08,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "PracticeAreasGrid_mobile": {
+      "score": 1.0,
+      "weight": 0.12,
+      "threshold": 0.9,
+      "passed": true
+    },
+    "FounderStory_mobile": {
+      "score": 1.0,
+      "weight": 0.07,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "Testimonials_mobile": {
+      "score": 1.0,
+      "weight": 0.07,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "FAQSection_mobile": {
+      "score": 1.0,
+      "weight": 0.05,
+      "threshold": 0.85,
+      "passed": true
+    },
+    "CTABand_mobile": {
+      "score": 1.0,
+      "weight": 0.03,
+      "threshold": 0.88,
+      "passed": true
+    },
+    "Footer_mobile": {
+      "score": 1.0,
+      "weight": 0.02,
+      "threshold": 0.88,
+      "passed": true
+    }
+  },
+  "universal_hard_halts": [],
+  "passed": true,
+  "failures": []
+}

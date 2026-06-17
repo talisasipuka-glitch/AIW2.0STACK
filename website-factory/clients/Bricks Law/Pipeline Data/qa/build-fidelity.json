@@ -1,0 +1,10 @@
+{
+  "client_node_count": 1,
+  "reference_node_count": 1,
+  "node_count_delta": 0,
+  "files_compared": [
+    "index.html"
+  ],
+  "mismatches": [],
+  "passed": true
+}

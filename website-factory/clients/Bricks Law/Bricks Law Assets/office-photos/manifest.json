@@ -1,0 +1,8 @@
+{
+  "category": "office-exterior",
+  "required": false,
+  "minCount": 0,
+  "preferredCount": 1,
+  "found": 0,
+  "notes": "No office exterior or signage photo found on the site. The firm's mailing address is a P.O. Box (P.O. Box 467007, Atlanta, GA 31146); a separate real office address (1200 Ashwood Parkway Suite 502, Atlanta, GA 30338) is referenced in third-party directories per research-report.md but not confirmed with the client. Recommend not generating an office-exterior image until the real address is confirmed, to avoid implying a location the firm cannot substantiate."
+}

@@ -1,0 +1,18 @@
+{
+  "deployedAt": "2026-06-15T14:00:00+00:00",
+  "deployment": {
+    "id": "dpl_59NXypUeNmJc8cpYe2jK3kSo5T3e",
+    "previewUrl": "https://bricks-law-website-proposal-ptn4zgya8-talisa-sipuka-s-projects.vercel.app",
+    "productionUrl": "https://bricks-law-website-proposal.vercel.app",
+    "inspectorUrl": "https://vercel.com/talisa-sipuka-s-projects/bricks-law-website-proposal/59NXypUeNmJc8cpYe2jK3kSo5T3e",
+    "project": "talisa-sipuka-s-projects/bricks-law-website-proposal",
+    "target": "production",
+    "readyState": "READY"
+  },
+  "smokeChecks": {
+    "root": { "url": "https://bricks-law-website-proposal.vercel.app/", "statusCode": 200 },
+    "title": { "statusCode": 200, "containsBusinessName": true, "containsAgencyName": true },
+    "build": { "url": "https://bricks-law-website-proposal.vercel.app/build/", "statusCode": 200 },
+    "agencyLogo": { "url": "https://bricks-law-website-proposal.vercel.app/agency-logo.svg", "statusCode": 200 }
+  }
+}

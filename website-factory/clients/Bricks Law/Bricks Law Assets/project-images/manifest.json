@@ -1,0 +1,18 @@
+{
+  "category": "project-images",
+  "label": "Case-result / podcast / supplementary media",
+  "required": false,
+  "found": 1,
+  "source": "brickslaw.com /videos page",
+  "items": [
+    {
+      "filename": "lawyers-and-lay-people.png",
+      "format": "PNG",
+      "description": "Cover art for the firm's 'Lawyers and Lay People' podcast, featuring the firm logo over a stock gavel/scales/law-book background",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_3789fc45df414f58a8094ee744ffa154~mv2.png",
+      "approxDimensions": "953x425 (site rendition)",
+      "use": "Optional supplementary asset for a podcast/media section; not a case-result or work photo"
+    }
+  ],
+  "notes": "No case-result, before/after, or 'work in progress' photos exist on the site, this firm is a service/consultation business (personal injury and bankruptcy law), not a visual-trade niche, so this category is not expected to carry much weight. The podcast cover is the only non-logo, non-portrait graphic found and is included as supplementary media."
+}

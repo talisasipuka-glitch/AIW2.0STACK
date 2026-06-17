@@ -1,0 +1,41 @@
+{
+  "$schemaVersion": 1,
+  "ctaPrimary": "Get Your Free Case Review",
+  "ctaSecondary": "Call Now, 24/7",
+  "formHeader": "Free Case Evaluation. No Fee Unless We Win.",
+  "formPrivacy": "Your information stays private. We never sell or share your details with anyone.",
+  "mobileCallLabel": "CALL NOW",
+  "thankYouMessage": "Thank you, {firstName}. A member of our team will call you within the hour to talk through what happened and what happens next.",
+  "footerTagline": "No win, no fee. Available 24/7.",
+  "blogIntro": "Plain answers to the questions people ask us most after an accident, written so you can read them between phone calls.",
+  "trustStripClaims": [
+    "No Win, No Fee",
+    "Available 24/7",
+    "Free Case Evaluation",
+    "Direct Attorney Access",
+    "Millions Recovered"
+  ],
+  "heroTrustClaims": [
+    "No win, no fee. You pay nothing unless we recover for you.",
+    "Available 24/7, including nights and weekends.",
+    "You work directly with your attorney, not a call center.",
+    "We litigate. We do not settle fast just to close the file."
+  ],
+  "riskReversalLine": "There is no fee, no pressure, and no obligation. If we cannot help, we will tell you and point you to someone who can.",
+  "heroH1Format": "[City]'s [Practice Area] Lawyers. No Win, No Fee. Guaranteed.",
+  "reviewsHeaderFormat": "{N} {platform} reviews from people we have helped get back on their feet",
+  "founderSupportingCards": [
+    {
+      "title": "Direct access",
+      "body_template": "When you call, you reach the person handling your case, not a rotating intake line."
+    },
+    {
+      "title": "We litigate",
+      "body_template": "We prepare every case as if it is going to trial, so the insurance company knows we are not bluffing."
+    },
+    {
+      "title": "Local roots",
+      "body_template": "{founderFirstName} grew up in {primaryCity} and represents neighbors, not case numbers."
+    }
+  ]
+}

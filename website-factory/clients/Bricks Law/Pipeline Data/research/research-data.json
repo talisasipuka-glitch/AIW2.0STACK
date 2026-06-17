@@ -1,0 +1,265 @@
+{
+  "businessName": "Bricks Law",
+  "websiteUrl": "https://www.brickslaw.com",
+  "phone": "(770) 696-4577",
+  "phoneNormalised": "+17706964577",
+  "email": "peter@brickslaw.com",
+  "yearFounded": "2006",
+  "yearsInBusiness": 19,
+
+  "ownerName": "Peter Bricks",
+  "ownerBio": "Peter Bricks is the founder and sole attorney at Peter Bricks, PC (Bricks Law). He holds a Bachelor of Journalism from the University of Texas at Austin (1998) and a Juris Doctor from Georgia State University (2006). He has been an active member in good standing of the State Bar of Georgia since 2006, admitted before the Supreme Court of Georgia, the Georgia Court of Appeals, and the U.S. District Courts for the Northern and Middle Districts of Georgia. He is a registered civil mediator with the Georgia Office of Dispute Resolution and a member of the National Association of Consumer Bankruptcy Attorneys and the American Bankruptcy Institute. Clients consistently describe him as responsive, thorough, and willing to dig deeper into a case than a prior attorney did, most notably in a case where he uncovered over $1 million in additional insurance coverage a previous attorney had missed.",
+  "ownerLinkedIn": "https://www.linkedin.com/in/peter-bricks-4827315/",
+  "ownerValues": [
+    "Accessibility, fast response to calls and emails",
+    "Thoroughness, explaining the legal process in plain language",
+    "Persistence, re-examining cases other attorneys gave up on",
+    "Personal attention, clients deal directly with the attorney"
+  ],
+  "visionStatement": "Not found",
+  "missionStatement": "Your Trusted Legal Advocate in Metro Atlanta, dedicated to providing compassionate legal assistance.",
+
+  "primaryCity": "Atlanta",
+  "state": "Georgia",
+  "fullAddress": "P.O. Box 467007, Atlanta, GA 31146 (mailing address on file; directory listings show a physical office at 1200 Ashwood Parkway Suite 502, Atlanta, GA 30338; client intake also notes a second office in Jonesboro, GA, confirm both with client before finalizing schema)",
+  "serviceAreas": [
+    "Atlanta",
+    "Sandy Springs",
+    "Dunwoody",
+    "Jonesboro",
+    "College Park",
+    "Forest Park",
+    "Lovejoy",
+    "Morrow",
+    "Riverdale",
+    "Clayton County",
+    "Cobb County",
+    "Cherokee County",
+    "DeKalb County",
+    "Fulton County",
+    "Gwinnett County"
+  ],
+
+  "primaryService": "Personal injury representation (auto collision claims)",
+  "services": [
+    "Personal injury, car accidents",
+    "Personal injury, truck accidents",
+    "Personal injury, motorcycle accidents",
+    "Personal injury, pedestrian and hit-and-run claims",
+    "Bankruptcy, Chapter 7",
+    "Bankruptcy, Chapter 13",
+    "Civil mediation"
+  ],
+  "businessModel": {
+    "primaryFocus": "contingency",
+    "secondaryFocus": "bankruptcy flat-fee/hourly"
+  },
+  "marketSegment": {
+    "primaryFocus": "individual consumers",
+    "secondaryFocus": null
+  },
+
+  "googleReviewCount": 0,
+  "googleRating": 0.0,
+  "googleReviewUrl": "https://g.page/r/Cd37QIEbYBisEBE/review",
+  "facebookReviewCount": 0,
+  "facebookRating": 0.0,
+  "facebookUrl": "https://www.facebook.com/peterbricksPC/",
+  "thirdPartyReviews": {
+    "avvo": {
+      "url": "https://www.avvo.com/attorneys/30328-ga-peter-bricks-461046.html",
+      "rating": 7.5,
+      "ratingScale": "10 (Very Good)",
+      "reviewCount": 22,
+      "reviewRating": 5.0,
+      "badges": ["Avvo Client's Choice Award", "Avvo Top Contributor"]
+    },
+    "martindale": {
+      "url": "https://www.martindale.com/organization/peter-bricks-pc-156801613/atlanta-georgia-157858723-f/",
+      "rating": "Distinguished",
+      "reviewCount": null
+    }
+  },
+
+  "certifications": [
+    "State Bar of Georgia, active member in good standing (since 2006)",
+    "Admitted, Supreme Court of Georgia",
+    "Admitted, Georgia Court of Appeals",
+    "Admitted, U.S. District Court, Northern District of Georgia",
+    "Admitted, U.S. District Court, Middle District of Georgia",
+    "Registered civil mediator, Georgia Office of Dispute Resolution",
+    "Member, National Association of Consumer Bankruptcy Attorneys",
+    "Member, American Bankruptcy Institute"
+  ],
+
+  "specialOffers": {
+    "items": ["Free consultation"],
+    "discountAmount": "Not found"
+  },
+
+  "pricing": {
+    "model": "Contingency fee for personal injury cases (no recovery, no fee implied but not stated verbatim); flat-fee/hourly for bankruptcy filings",
+    "lowEnd": null,
+    "highEnd": null,
+    "currency": "USD",
+    "termsDescription": "Personal injury clients pay nothing unless the firm recovers a settlement or verdict. Bankruptcy filing fees follow standard Chapter 7/13 consumer rates."
+  },
+
+  "brandGuidelines": {
+    "hasFormalGuide": false,
+    "guideFilePath": "",
+    "lockedColors": {},
+    "lockedFonts": {},
+    "lockedTagline": "",
+    "lockedVoiceRules": []
+  },
+
+  "competitors": [
+    {
+      "name": "Butler Kahn",
+      "website": "Not captured",
+      "notes": "Ranked among top Sandy Springs personal injury firms (Expertise.com)"
+    },
+    {
+      "name": "The Williamson Law Firm",
+      "website": "Not captured",
+      "notes": "Attorney Scott Williamson, offices in Alpharetta and Dunwoody, negligence-victim focus"
+    },
+    {
+      "name": "Steven I. Goldman",
+      "website": "Not captured",
+      "notes": "Atlanta-based, approximately 40 years of experience, serves Sandy Springs"
+    },
+    {
+      "name": "ReisLaw, LLC",
+      "website": "Not captured",
+      "notes": "Founder Laura Reis, represents Georgia injury victims"
+    },
+    {
+      "name": "Guardian Accident & Injury Lawyers",
+      "website": "myguardianlaw.com",
+      "notes": "Serves Atlanta, Sandy Springs, and Jonesboro directly, closest geographic overlap with Bricks Law"
+    }
+  ],
+  "brandVoice": "Approachable, plain-spoken, client-first and informational rather than aggressive. Unusual for the PI niche, the current site reads more like a helpful neighborhood attorney than a hard-charging injury fighter, even though the underlying case results (a $1.325M recovery after finding coverage a prior attorney missed, a $300K jury verdict won despite a denied-causation defense) support a much stronger, more confident voice.",
+  "brandVoiceTags": ["trustworthy", "accessible", "compassionate", "local", "results-driven"],
+  "primaryColorGuess": "Not formally documented, current Wix site uses a black wordmark logo on white",
+  "secondaryColorGuess": "Not formally documented",
+  "tagline": "Atlanta Personal Injury and Bankruptcy Attorney, Your Trusted Legal Advocate in Metro Atlanta",
+  "logoStyle": "wordmark",
+  "hasMascot": false,
+  "mascotDescription": "",
+  "techDifferentiators": [
+    "Active blog with bankruptcy and personal injury legal content",
+    "\"Lawyers and Lay People\" podcast with guest attorneys (landlord-tenant law, criminal law, social security disability, lemon law)"
+  ],
+  "uniqueStoryHooks": [
+    "Found over $1 million in additional insurance coverage a prior attorney missed, turned a $25,000 settlement into $1,325,000",
+    "Won a $300,000 Gwinnett County jury verdict despite the defense denying causation and arguing for $0-$140,000",
+    "Secured a $100,000 uninsured-motorist policy-limits recovery in a hit-and-run case by sourcing dashcam evidence via an open-records request after police blamed the client",
+    "Solo practitioner, clients deal directly with Peter Bricks rather than a call center or rotating associate",
+    "19+ years of Georgia bar standing plus federal court admissions and a GODR mediator credential"
+  ],
+  "techStack": "Wix, HTTPS enabled, Organization + LocalBusiness JSON-LD schema present on homepage, responsive by default",
+  "currentSiteIssues": [
+    "Homepage messaging split roughly evenly between personal injury and bankruptcy with no clear hierarchy",
+    "No prominent conversion CTA beyond a phone number",
+    "Settlement results buried on a secondary page instead of featured on the homepage",
+    "Mailing address is a P.O. Box rather than the firm's real office address",
+    "No \"No Win, No Fee\" or 24/7-availability language anywhere on the current site",
+    "Likely slow mobile load (Wix, large hero image assets)"
+  ],
+
+  "nicheExtensions": {
+    "personal-injury-lawyers": {
+      "caseTypesHandled": ["car-accident", "truck-accident", "motorcycle-accident", "other"],
+      "contingencyFee": {
+        "offered": true,
+        "termsText": "Represents injured plaintiffs on a contingency basis; \"No Win, No Fee\" phrasing not currently used on site, recommended as a locked-copy addition"
+      },
+      "freeConsultation": true,
+      "availabilityClaim": "Not found",
+      "bilingualServices": [],
+      "officeLocations": {
+        "count": 2,
+        "cities": ["Atlanta", "Jonesboro"]
+      },
+      "homeHospitalVisits": false,
+      "barAdmissions": [
+        "Georgia (State Bar)",
+        "Supreme Court of Georgia",
+        "Georgia Court of Appeals",
+        "U.S. District Court, Northern District of Georgia",
+        "U.S. District Court, Middle District of Georgia"
+      ],
+      "yearsLicensed": 19,
+      "professionalAffiliations": [
+        {"name": "Avvo Client's Choice Award", "tier": null, "yearOrRating": null},
+        {"name": "Avvo Top Contributor", "tier": null, "yearOrRating": null},
+        {"name": "Avvo attorney rating", "tier": "7.5 / Very Good", "yearOrRating": "22 reviews at 5.0"},
+        {"name": "Martindale-Hubbell", "tier": "Distinguished", "yearOrRating": null},
+        {"name": "National Association of Consumer Bankruptcy Attorneys", "tier": "Member", "yearOrRating": null},
+        {"name": "American Bankruptcy Institute", "tier": "Member", "yearOrRating": null},
+        {"name": "State Bar of Georgia", "tier": "Active Member in Good Standing", "yearOrRating": null}
+      ],
+      "pressMentions": [],
+      "settlementResults": [
+        {
+          "caseType": "car-accident",
+          "amountDisplay": "$1,325,000",
+          "year": null,
+          "description": "Co-counsel for a middle-aged man badly injured in an auto collision (surgical ankle/patella fixation, post-surgical infection). A prior attorney had recovered $25,000; Bricks Law uncovered over $1 million in additional applicable insurance."
+        },
+        {
+          "caseType": "car-accident",
+          "amountDisplay": "$300,000",
+          "year": null,
+          "description": "Jury verdict in Gwinnett County for a college student with bilateral knee injuries (arthroscopy, partial meniscectomy) from being T-boned by a driver who ran a red light. Verdict secured despite the defense denying causation and arguing for $0-$140,000."
+        },
+        {
+          "caseType": "car-accident",
+          "amountDisplay": "$100,000",
+          "year": null,
+          "description": "Policy-limits settlement under the client's uninsured motorist policy after she was run off the highway by a hit-and-run driver. Police initially cited the client; Bricks Law obtained dashcam video via an open-records request to prove fault lay with the other driver."
+        },
+        {
+          "caseType": "car-accident",
+          "amountDisplay": "$75,000",
+          "year": null,
+          "description": "Settlement plus bad-faith claim recovery for a client who required ankle-fracture surgery; only $55,000 in insurance was available, an additional $20,000 was secured above policy limits via a bad-faith claim."
+        },
+        {
+          "caseType": "car-accident",
+          "amountDisplay": "Confidential",
+          "year": null,
+          "description": "Pedestrian case, client's foot was run over by a vehicle in a collision; settlement amount confidential."
+        }
+      ],
+      "testimonialThemes": [
+        "responsive communication",
+        "thorough case explanation",
+        "attentive to client needs",
+        "smooth, seamless process",
+        "trustworthy / dependable"
+      ],
+      "businessModel": {
+        "primaryFocus": "hybrid"
+      },
+      "marketSegment": {
+        "primaryFocus": "individual-injury"
+      },
+      "specialOffers": {
+        "freeConsultation": true,
+        "noFeeUnlessWeWin": true,
+        "bilingual": false,
+        "virtualConsultation": false,
+        "homeHospitalVisits": false
+      },
+      "financing": {
+        "offered": false,
+        "details": null
+      },
+      "brandVoiceTags": ["trustworthy", "accessible", "compassionate", "local", "results-driven"]
+    }
+  }
+}

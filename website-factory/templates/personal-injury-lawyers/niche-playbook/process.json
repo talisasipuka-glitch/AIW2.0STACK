@@ -1,0 +1,25 @@
+{
+  "$schemaVersion": 1,
+  "stepCount": 3,
+  "sectionHeading": "How It Works",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Submit Your Case",
+      "description": "Tell us what happened in a free, no-obligation case evaluation. It takes a few minutes and there is never a fee to talk to us.",
+      "iconHint": "document-text"
+    },
+    {
+      "n": 2,
+      "title": "We Investigate",
+      "description": "We gather the evidence, talk to witnesses, review your medical records, and deal with the insurance company so you can focus on recovering.",
+      "iconHint": "magnifying-glass"
+    },
+    {
+      "n": 3,
+      "title": "We Fight For You",
+      "description": "We negotiate hard and, if the insurance company will not pay what your case is worth, we take it to court. You owe us nothing unless we win.",
+      "iconHint": "scale"
+    }
+  ]
+}

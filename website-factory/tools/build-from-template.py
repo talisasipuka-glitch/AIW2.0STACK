@@ -190,6 +190,7 @@ def client_paths(client_name: str) -> dict[str, Path]:
         "client_badges_dir": assets / "badges",
         "build_log": pipe / "logs" / "build-log.md",
         "pipeline_state": pipe / "logs" / "pipeline-state.json",
+        "agency_brand": REPO_ROOT / "clients" / "_agency" / "agency-brand.json",
     }
 
 
@@ -201,6 +202,9 @@ def read_json(path: Path) -> dict[str, Any]:
 
 def run(cmd: list[str], cwd: Path | None = None, check: bool = True) -> subprocess.CompletedProcess:
     print(f"$ {' '.join(cmd)}")
+    resolved = shutil.which(cmd[0])
+    if resolved:
+        cmd = [resolved] + cmd[1:]
     return subprocess.run(cmd, cwd=cwd, check=check, text=True, capture_output=False)
 
 
@@ -1296,6 +1300,7 @@ def compose_brand_dna(client_name: str, paths: dict[str, Path]) -> dict[str, Any
         strategy["blog_posts"] = sitemap["blog_posts"]
     brand_dna_in = read_json(paths["brand_dna_json"])
     resonance = read_json(paths["resonance"])
+    agency_brand = read_json(paths["agency_brand"])
     copy_sections = _parse_copy_deck(paths["copy_deck"])
 
     REQ = "__REQUIRED__"
@@ -1718,7 +1723,10 @@ def compose_brand_dna(client_name: str, paths: dict[str, Path]) -> dict[str, Any
         ),
         "blog_categories": pick_first(brand_dna_in.get("blog_categories"), ["All"]),
         "pages": _compose_pages_block(brand_dna_in, copy_sections, city, state, company_name),
-        "credit": {"agency": "__REQUIRED__AGENCY_NAME__", "url": None},
+        "credit": {
+            "agency": pick_first(agency_brand.get("name"), REQ),
+            "url": pick_first(agency_brand.get("domain"), None) if agency_brand.get("domain") != "TBD" else None,
+        },
     }
     return brand_dna
 
@@ -2297,7 +2305,7 @@ def write_brand_dna_js(brand_dna: dict[str, Any], dest: Path) -> None:
     """
     js = "export const brandDNA = " + json.dumps(brand_dna, indent=2, ensure_ascii=False) + ";\n"
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(js)  # lgtm[py/clear-text-storage-sensitive-data]
+    dest.write_text(js, encoding="utf-8")  # lgtm[py/clear-text-storage-sensitive-data]
     print(f"wrote brand-dna.js: {dest}")
 
 
@@ -2533,7 +2541,7 @@ def copy_assets(client_name: str, paths: dict[str, Path], site_dir: Path, brand_
     motif = brand_dna.get("shape_motif", "polygon")
     patterns_out = public / "patterns"
     patterns_out.mkdir(parents=True, exist_ok=True)
-    pattern_src = TEMPLATE_DIR / "src" / "assets" / "bg-patterns" / f"{motif}.svg"
+    pattern_src = site_dir / "src" / "assets" / "bg-patterns" / f"{motif}.svg"
     if pattern_src.exists():
         shutil.copyfile(pattern_src, patterns_out / f"{motif}.svg")
 
@@ -2562,7 +2570,7 @@ def find_sentinels(brand_dna_path: Path) -> list[str]:
     followed by `[A-Z0-9_]+__`, so the bare word `__REQUIRED__` in prose never
     matches even outside comments.
     """
-    text = brand_dna_path.read_text()
+    text = brand_dna_path.read_text(encoding="utf-8")
     hits = []
     for line_no, line in enumerate(text.splitlines(), start=1):
         stripped = line.lstrip()

@@ -1,0 +1,24 @@
+{
+  "loop": 0,
+  "categories": {
+    "global_checks": { "pass": 9, "fail": 0, "na": 1, "total": 10 },
+    "header": { "pass": 5, "fail": 0, "na": 0, "total": 5 },
+    "footer": { "pass": 4, "fail": 0, "na": 0, "total": 4 },
+    "home_page_sections": { "pass": 45, "fail": 0, "na": 0, "total": 45 },
+    "case_type_sections": { "pass": 25, "fail": 0, "na": 0, "total": 25 },
+    "trust_stack_order": { "pass": 1, "fail": 0, "na": 0, "total": 1 },
+    "leadform_halt_checks": { "pass": 5, "fail": 0, "na": 0, "total": 5 },
+    "case_type_completeness": { "pass": 5, "fail": 0, "na": 2, "total": 7 },
+    "site_wide_routes": { "pass": 8, "fail": 0, "na": 0, "total": 8 },
+    "mobile_checks": { "pass": 5, "fail": 0, "na": 0, "total": 5 }
+  },
+  "totals": { "pass": 112, "fail": 0, "na": 3, "total": 115 },
+  "pass_rate_excluding_na": 1.0,
+  "gate": 0.95,
+  "halt_level_failures": [],
+  "em_dash_hits": 0,
+  "placeholder_sentinel_hits": 0,
+  "ai_vocab_hard_fails": 0,
+  "ai_vocab_flagged_acceptable": 2,
+  "passed": true
+}

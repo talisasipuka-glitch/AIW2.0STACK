@@ -1,0 +1,24 @@
+{
+  "category": "logo",
+  "required": true,
+  "source": "brickslaw.com (JSON-LD Organization/LocalBusiness logo field, confirmed via website-content-crawler)",
+  "items": [
+    {
+      "filename": "bricks-law-logo.png",
+      "format": "PNG",
+      "description": "Primary horizontal wordmark, black on transparent/white, 'PETER BRICKS, P.C. / Personal Injury & Bankruptcy Attorney'",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_aadaac8c62f64316a15befb6051796bc~mv2.png",
+      "approxDimensions": "1455x233 (crop-fill rendition); higher-res source available",
+      "use": "Primary header/footer logo"
+    },
+    {
+      "filename": "bricks-law-logo-lockup.png",
+      "format": "PNG",
+      "description": "Full lockup: square 'P|B' mark plus 'PETER BRICKS, P.C.' wordmark and tagline, black on white",
+      "sourceUrl": "https://static.wixstatic.com/media/b739e9_692de9015f0b4ed2a488eb11621f9c2b~mv2.png",
+      "approxDimensions": "4000x1516 (og:image rendition)",
+      "use": "Social share image / alternate lockup; can be cropped to isolate the square 'P|B' mark for favicon use"
+    }
+  ],
+  "notes": "Both logo assets are black-on-white PNGs sourced directly from the live Wix site. No SVG source was found; recommend vectorizing the wordmark if the build needs a crisp SVG. No separate icon-only mark file exists yet, crop the square 'P|B' block from bricks-law-logo-lockup.png if a standalone icon mark is needed."
+}

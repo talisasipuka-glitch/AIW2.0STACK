@@ -1,0 +1,281 @@
+{
+  "$schemaVersion": 1,
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "url": "/",
+      "tier": "root",
+      "sections": [
+          {
+            "name": "Hero",
+            "description": "H1 with case-type settlement proof or risk-removal framing, trust chips, attorney photo, and a 4-field free case evaluation form above the fold.",
+            "tag": "Convert"
+          },
+          {
+            "name": "How It Works",
+            "description": "Three-step process (Submit, We Investigate, We Fight) that sets expectations before {brand_short} asks for anything else.",
+            "tag": "Process"
+          },
+          {
+            "name": "Settlement Results Bar",
+            "description": "Horizontal grid of dollar figures tagged by case type, the first proof {owner_first} shows a stressed visitor.",
+            "tag": "Stat"
+          },
+          {
+            "name": "Press Band",
+            "description": "Media logos or local award badges that show {brand_short} has been recognised beyond its own marketing.",
+            "tag": "Trust"
+          },
+          {
+            "name": "Why Choose Us",
+            "description": "Risk-removal bullets: no fee unless we win, available 24/7, direct attorney access, not a settlement mill.",
+            "tag": "Trust"
+          },
+          {
+            "name": "Practice Areas Grid",
+            "description": "One card per case type with a dollar result and one-line description, linking to {service_count} separate case-type pages.",
+            "tag": "Convert"
+          },
+          {
+            "name": "Founder Story",
+            "description": "{owner_first}'s photo and personal origin story, answering the 'why should I trust this firm' question.",
+            "tag": "Story"
+          },
+          {
+            "name": "Testimonials",
+            "description": "Named clients with photo, case type, and outcome where available.",
+            "tag": "Proof"
+          },
+          {
+            "name": "FAQ",
+            "description": "Plain-language answers to the questions people search after an accident, tagged with FAQPage schema.",
+            "tag": "AEO"
+          },
+          {
+            "name": "Final CTA Band",
+            "description": "Last conversion push before the footer, repeating the no-win-no-fee promise.",
+            "tag": "Convert"
+          }
+        ]
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "url": "/about",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro establishing who {brand_short} is and who they fight for.",
+            "tag": "Info"
+          },
+          {
+            "name": "Founder Story (expanded)",
+            "description": "{owner_first}'s full origin story and what led them into personal injury law.",
+            "tag": "Story"
+          },
+          {
+            "name": "Why Choose Us",
+            "description": "Risk-removal bullets restated for a visitor doing deeper research.",
+            "tag": "Trust"
+          },
+          {
+            "name": "Testimonials",
+            "description": "Client stories that back up the founder narrative.",
+            "tag": "Proof"
+          }
+        ]
+    },
+    {
+      "id": "practice-areas",
+      "title": "Practice Areas",
+      "url": "/practice-areas",
+      "tier": "pillar",
+      "hasSilos": "service",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro to {brand_short}'s practice areas.",
+            "tag": "Info"
+          },
+          {
+            "name": "Practice Areas Grid",
+            "description": "All {service_count} case-type cards, each linking to its own landing page.",
+            "tag": "Convert"
+          }
+        ]
+    },
+    {
+      "id": "testimonials",
+      "title": "Reviews",
+      "url": "/testimonials",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro framing the review section as real outcomes for real clients.",
+            "tag": "Info"
+          },
+          {
+            "name": "Testimonials (full grid)",
+            "description": "Every available client review, with photo, case type, and outcome where possible.",
+            "tag": "Proof"
+          }
+        ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "url": "/faq",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro reassuring the visitor these are real answers, not a sales pitch.",
+            "tag": "Info"
+          },
+          {
+            "name": "FAQ (full list)",
+            "description": "All frequently asked questions about cost, process, case value, and timelines, tagged with FAQPage schema.",
+            "tag": "AEO"
+          }
+        ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "url": "/contact",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro inviting the visitor to reach out any time, day or night.",
+            "tag": "Info"
+          },
+          {
+            "name": "Contact details",
+            "description": "Address, phone, hours (Open 24/7), and a map.",
+            "tag": "Local"
+          },
+          {
+            "name": "Free Case Evaluation form",
+            "description": "The same 4-field lead form used on the homepage.",
+            "tag": "Convert"
+          }
+        ]
+    },
+    {
+      "id": "blog",
+      "title": "Resources",
+      "url": "/blog",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Page hero",
+            "description": "Short intro framing the blog as plain-language help, not legal jargon.",
+            "tag": "Info"
+          },
+          {
+            "name": "Blog grid",
+            "description": "Cards for each post: cover image, title, excerpt, date, and category.",
+            "tag": "SEO"
+          }
+        ]
+    },
+    {
+      "id": "locations",
+      "title": "Office Locations",
+      "url": "/about",
+      "tier": "core",
+      "sections": [
+          {
+            "name": "Office Locations grid (multi-office firms only)",
+            "description": "{brand_short} does not ship separate location pages unless it operates from {city_count} or more offices. Multi-office firms get an Office Locations grid added to the About page; single-office firms omit this section entirely.",
+            "tag": "Local"
+          }
+        ]
+    }
+  ],
+  "perServicePageTemplate": {
+    "sections": [
+      {
+        "name": "{service_name} hero",
+        "description": "H1: '{service_name} Lawyer in {city} | {brand_short}'. Large settlement figure for this case type, rendered in accent yellow with tabular-nums.",
+        "tag": "Convert"
+      },
+      {
+        "name": "Risk removal band",
+        "description": "Restates 'No win, no fee. Available 24/7.' directly below the hero.",
+        "tag": "Trust"
+      },
+      {
+        "name": "Settlement stat",
+        "description": "Single large dollar figure specific to {service_name} cases.",
+        "tag": "Stat"
+      },
+      {
+        "name": "Case explainer",
+        "description": "What to do after a {service_name} accident, and what compensation typically covers.",
+        "tag": "Info"
+      },
+      {
+        "name": "Case-specific FAQ",
+        "description": "Three to five FAQ items specific to {service_name}, tagged with FAQPage and BreadcrumbList schema.",
+        "tag": "AEO"
+      },
+      {
+        "name": "CTA band + Free Case Evaluation form",
+        "description": "Final conversion push with the same 4-field lead form, repeated for {service_name} visitors.",
+        "tag": "Convert"
+      }
+    ]
+  },
+  "aliasPages": [
+    {
+      "id": "car-accident",
+      "title": "Car Accident",
+      "tier": "pillar",
+      "urlFromService": ["car accident", "auto accident", "car crash"],
+      "fallbackUrl": "/practice-areas",
+      "fallbackTitleFromService": true,
+      "sections": [
+        {
+          "name": "Car Accident hero",
+          "description": "Separate landing page for car accident searches, the niche's highest-volume case-type query.",
+          "tag": "Convert"
+        }
+      ]
+    },
+    {
+      "id": "truck-accident",
+      "title": "Truck Accident",
+      "tier": "pillar",
+      "urlFromService": ["truck accident", "semi truck", "18-wheeler"],
+      "fallbackUrl": "/practice-areas",
+      "fallbackTitleFromService": true,
+      "sections": [
+        {
+          "name": "Truck Accident hero",
+          "description": "Separate landing page for truck and commercial vehicle accident searches.",
+          "tag": "Convert"
+        }
+      ]
+    },
+    {
+      "id": "wrongful-death",
+      "title": "Wrongful Death",
+      "tier": "pillar",
+      "urlFromService": ["wrongful death", "fatal accident"],
+      "fallbackUrl": "/practice-areas",
+      "fallbackTitleFromService": true,
+      "sections": [
+        {
+          "name": "Wrongful Death hero",
+          "description": "Separate, carefully-worded landing page for families researching a wrongful death claim.",
+          "tag": "Convert"
+        }
+      ]
+    }
+  ]
+}
