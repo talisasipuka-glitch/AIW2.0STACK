@@ -23,6 +23,9 @@ export default function PracticeAreasThree() {
 
   if (areas.length === 0) return null;
 
+  const lead = areas.find((a) => a.name === 'Personal Injury') || areas[0];
+  const secondary = areas.filter((a) => a !== lead);
+
   return (
     <section id="practice-areas" className="bg-white">
       <div className="mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-section-gap-lg">
@@ -35,28 +38,63 @@ export default function PracticeAreasThree() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          {areas.map((area) => (
+        {/* Lead: Personal Injury, full-width feature */}
+        <div className="rounded-xl border border-primary bg-primary text-white p-8 md:p-10 mb-6">
+          <div className="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-accent mb-5 flex-shrink-0">
+            {ICONS[lead.name] || null}
+          </div>
+
+          <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3">
+            {lead.name}
+          </h3>
+
+          <p className="text-silver text-base leading-relaxed mb-5 max-w-prose">
+            {lead.description}
+          </p>
+
+          {lead.subTypes && lead.subTypes.length > 0 ? (
+            <ul className="flex flex-wrap gap-3 mb-5">
+              {lead.subTypes.map((sub) => (
+                <li
+                  key={sub}
+                  className="text-sm text-white border border-white/30 rounded-full px-3 py-1"
+                >
+                  {sub}
+                </li>
+              ))}
+            </ul>
+          ) : null}
+
+          {lead.badge ? (
+            <p className="text-xs font-bold uppercase tracking-eyebrow text-accent">
+              {lead.badge}
+            </p>
+          ) : null}
+        </div>
+
+        {/* Secondary: Bankruptcy, Mediation, smaller cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {secondary.map((area) => (
             <div
               key={area.name}
-              className="rounded-xl border border-silver bg-white p-6 shadow-card flex flex-col"
+              className="rounded-xl border border-silver bg-white p-6 flex flex-col"
             >
-              <div className="w-12 h-12 rounded-lg bg-primary/8 flex items-center justify-center text-primary mb-4 flex-shrink-0"
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center text-primary mb-3 flex-shrink-0"
                 style={{ background: 'rgba(27,78,60,0.08)' }}
               >
                 {ICONS[area.name] || null}
               </div>
 
-              <h3 className="font-heading text-xl font-bold text-ink mb-3">
+              <h3 className="font-heading text-lg font-bold text-ink mb-2">
                 {area.name}
               </h3>
 
-              <p className="text-neutral text-sm leading-relaxed mb-4 flex-1">
+              <p className="text-neutral text-sm leading-relaxed mb-3 flex-1">
                 {area.description}
               </p>
 
               {area.subTypes && area.subTypes.length > 0 ? (
-                <ul className="border-t border-silver pt-4 mt-auto space-y-1">
+                <ul className="border-t border-silver pt-3 mt-auto space-y-1">
                   {area.subTypes.map((sub) => (
                     <li key={sub} className="text-sm text-neutral flex items-start gap-2">
                       <span className="text-accent font-bold text-xs mt-1 flex-shrink-0">+</span>
@@ -67,7 +105,7 @@ export default function PracticeAreasThree() {
               ) : null}
 
               {area.badge ? (
-                <p className="mt-4 text-xs font-bold uppercase tracking-eyebrow text-primary border-t border-silver pt-4">
+                <p className="mt-3 text-xs font-bold uppercase tracking-eyebrow text-primary border-t border-silver pt-3">
                   {area.badge}
                 </p>
               ) : null}

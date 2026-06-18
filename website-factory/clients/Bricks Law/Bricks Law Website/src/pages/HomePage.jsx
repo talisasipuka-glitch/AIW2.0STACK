@@ -5,10 +5,12 @@ import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import Hero from '../components/Hero.jsx';
 import StatsBar from '../components/StatsBar.jsx';
+import DirectLineBand from '../components/DirectLineBand.jsx';
+import RiskRemovalBand from '../components/RiskRemovalBand.jsx';
 import PracticeAreasThree from '../components/PracticeAreasThree.jsx';
 import AttorneyProfile from '../components/AttorneyProfile.jsx';
-import DirectLineBand from '../components/DirectLineBand.jsx';
 import Testimonials from '../components/Testimonials.jsx';
+import VideosBand from '../components/VideosBand.jsx';
 import FAQSection from '../components/FAQSection.jsx';
 import ContactSection from '../components/ContactSection.jsx';
 
@@ -25,10 +27,12 @@ export default function HomePage() {
       <main>
         <Hero />
         <StatsBar />
+        <DirectLineBand />
+        <RiskRemovalBand />
         <PracticeAreasThree />
         <AttorneyProfile />
-        <DirectLineBand />
         <Testimonials />
+        <VideosBand />
         <FAQSection />
         <ContactSection />
       </main>
