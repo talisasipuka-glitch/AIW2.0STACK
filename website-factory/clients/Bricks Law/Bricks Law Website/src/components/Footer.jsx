@@ -61,7 +61,7 @@ export default function Footer() {
               <li className="tabular-nums">{brandDNA.contact.phone}</li>
               <li>{brandDNA.contact.email}</li>
               {brandDNA.company.licenseNumber ? (
-                <li>License #{brandDNA.company.licenseNumber}</li>
+                <li>{brandDNA.company.licenseNumber}</li>
               ) : null}
             </ul>
             {socials.length > 0 ? (
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary-slate mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-neutral">
-          <p>{brandDNA.copy.copyright}</p>
+          <p>{brandDNA.copy.copyright.replace('{year}', new Date().getFullYear())}</p>
           <p>{brandDNA.copy.footerCta}</p>
           {brandDNA.credit?.agency ? (
             brandDNA.credit.url ? (
