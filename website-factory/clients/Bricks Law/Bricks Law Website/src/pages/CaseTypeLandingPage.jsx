@@ -67,7 +67,7 @@ export default function CaseTypeLandingPage() {
       <main>
         <CaseTypeHero service={resolvedService} detail={detail} />
         <RiskRemovalBand />
-        <StatsBar figures={figures} />
+        {figures ? <StatsBar figures={figures} /> : null}
         <CaseTypeExplainer service={resolvedService} detail={detail} />
         <FAQSection items={faqItems} />
         <CTABand />
