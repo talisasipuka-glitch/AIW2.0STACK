@@ -80,7 +80,7 @@ export function buildLegalServiceSchema() {
     '@type': 'LegalService',
     name: company.name,
     url: SITE_URL,
-    telephone: brandDNA.contact.phoneTelLink,
+    telephone: brandDNA.contact.phoneTelLink.replace(/^tel:/, ''),
     email: brandDNA.contact.email,
     description: company.tagline,
     areaServed: brandDNA.serviceAreas,

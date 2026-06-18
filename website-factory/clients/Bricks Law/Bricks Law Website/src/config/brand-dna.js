@@ -14,7 +14,7 @@ export const brandDNA = {
   },
   "contact": {
     "phone": "(770) 696-4577",
-    "phoneTelLink": "+17706964577",
+    "phoneTelLink": "tel:+17706964577",
     "email": "peter@brickslaw.com",
     "googleMapsUrl": null,
     "mapsEmbedUrl": null
