@@ -25,7 +25,7 @@ export default function AboutPage() {
       <main>
         <PageHero
           title={`About ${brandDNA.company.name}`}
-          intro={brandDNA.company.description}
+          intro={brandDNA.pages.about.storyClosing}
         />
         <FounderStory />
         <WhyChooseUs />
