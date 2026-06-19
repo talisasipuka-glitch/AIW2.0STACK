@@ -32,6 +32,9 @@ export default function PracticeAreasGrid() {
               {brandDNA.copy.services.body}
             </p>
           ) : null}
+          <p className="text-xs font-bold uppercase tracking-eyebrow text-primary mt-6">
+            Personal Injury
+          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

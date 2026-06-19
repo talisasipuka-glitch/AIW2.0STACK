@@ -5,6 +5,7 @@ import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import PageHero from '../components/PageHero.jsx';
 import PracticeAreasGrid from '../components/PracticeAreasGrid.jsx';
+import OtherPracticeAreas from '../components/OtherPracticeAreas.jsx';
 import CTABand from '../components/CTABand.jsx';
 
 export default function PracticeAreasPage() {
@@ -26,6 +27,7 @@ export default function PracticeAreasPage() {
           intro="We represent injury victims across every major case type. Select your case below to see how we can help."
         />
         <PracticeAreasGrid />
+        <OtherPracticeAreas />
         <CTABand />
       </main>
       <Footer />
